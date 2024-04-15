@@ -69,6 +69,7 @@ def plot_progress(users: np.array, scores: np.array):
     date_list.append(datetime.date(2023, 6, 24))
     date_list.append(datetime.date(2023, 7, 8))
     date_list.append(datetime.date(2023, 7, 29))
+    date_list.append(datetime.date(2023, 8, 30))
     # print(date_list)
     d = [date for date in date_list if today >= date]
     # print(date_list)
