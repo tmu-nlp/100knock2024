@@ -10,15 +10,10 @@ wordList = strippedText.split()
 indList = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 
 
-##### first attempt
-resultDict = dict(enumerate(wordList))
+resultDict = dict(enumerate(wordList, 1))  ### enumerate(iterable, start=0)
 for i in resultDict:
     if i in indList:
         resultDict[i] = resultDict[i][:1]
     else:
         resultDict[i] = resultDict[i][:2]
 print(resultDict)
-
-
-
-##### second attempt
