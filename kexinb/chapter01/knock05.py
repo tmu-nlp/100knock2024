@@ -4,7 +4,6 @@
 def n_gram(seq, n):
     return [seq[i:i+n] for i in range(len(seq)-n+1)]
 
-text = "I am an NLPer"
-
 if __name__ == "__main__":
+    text = "I am an NLPer"
     print(n_gram(text.split(), 2))

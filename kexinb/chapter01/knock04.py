@@ -3,17 +3,22 @@
 
 import string
 
-rawText = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
-strippedText = rawText.translate(str.maketrans("","",string.punctuation))
-wordList = strippedText.split()
+def strip_puncs(raw):
+    ### translate(translation table) 
+    ### maketrans(chars to be replaced, their replacements, chars to be deleted) -> translation table
+    return raw.translate(str.maketrans('', '', string.punctuation))
 
-indList = [1, 5, 6, 7, 8, 9, 15, 16, 19]
+def get_initials(raw, indices):
+    wordList = (strip_puncs(raw)).split()
+    resultDict = dict(enumerate(wordList, 1))  ### enumerate(iterable, start=0)
+    for i in resultDict:
+        if i in indices:
+            resultDict[i] = resultDict[i][:1]
+        else:
+            resultDict[i] = resultDict[i][:2]
+    return resultDict
 
-
-resultDict = dict(enumerate(wordList, 1))  ### enumerate(iterable, start=0)
-for i in resultDict:
-    if i in indList:
-        resultDict[i] = resultDict[i][:1]
-    else:
-        resultDict[i] = resultDict[i][:2]
-print(resultDict)
+if __name__ == "__main__":
+    rawText = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+    indList = [1, 5, 6, 7, 8, 9, 15, 16, 19]
+    print(get_initials(rawText, indList))

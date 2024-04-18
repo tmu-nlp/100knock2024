@@ -4,12 +4,15 @@
 
 import string
 
-rawText = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+def strip_puncs(raw):
+    ### translate(translation table) 
+    ### maketrans(chars to be replaced, their replacements, chars to be deleted) -> translation table
+    return raw.translate(str.maketrans('', '', string.punctuation))
 
-# strip punctuations --> what's the standard practive?
+def words_len(raw):
+    text = strip_puncs(raw)
+    return [len(word) for word in text.split()]
 
-### translate(translation table) 
-### maketrans(chars to be replaced, their replacements, chars to be deleted) -> translation table
-text = rawText.translate(str.maketrans('', '', string.punctuation))
-
-print([len(word) for word in text.split()])
+if __name__ == "__main__":
+    rawText = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+    print(words_len(rawText))

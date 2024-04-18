@@ -3,17 +3,13 @@
 
 from knock05 import n_gram
 
-# list1 = n_gram(list("paraparaparadise"), 2)
-# list2 = n_gram(list("paragraph"), 2)
+if __name__ == "__main__":
+    text1 = 'paraparaparadise'
+    text2 = 'paragraph'
+    bigramSet1 = set(n_gram(text1, 2))
+    bigramSet2 = set(n_gram(text2, 2))
 
-# set(list1)
-
-text1 = 'paraparaparadise'
-text2 = 'paragraph'
-bigramSet1 = set(n_gram(text1, 2))
-bigramSet2 = set(n_gram(text2, 2))
-
-print(f"Union: {bigramSet1 | bigramSet2}")
-print(f"Intersection: {bigramSet1 & bigramSet2}")
-print(f"Difference: {bigramSet1 - bigramSet2}")
-print(f"Is 'se' in both sets: {'se' in bigramSet1 & bigramSet2}")
+    print(f"Union: {bigramSet1 | bigramSet2}")
+    print(f"Intersection: {bigramSet1 & bigramSet2}")
+    print(f"Difference: {bigramSet1 - bigramSet2}")
+    print(f"Is 'se' in both sets: {'se' in bigramSet1 & bigramSet2}")

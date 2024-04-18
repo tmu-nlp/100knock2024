@@ -15,6 +15,10 @@ def shuffle_sentence(text):
     wordList = text.split()
     return " ".join([shuffle_word(w) for w in wordList])
 
-print(shuffle_sentence("NLP is fun!")) 
-print(shuffle_sentence("NLP is super dope!")) 
-print(shuffle_sentence("I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind .")) 
+if __name__ == "__main__":
+    test1 = "NLP is fun!"
+    print("Shuffling \"{}\": \n->\"{}\"".format(test1, shuffle_sentence(test1)))
+    test2 = "NLP is super dope!"
+    print("Shuffling \"{}\": \n->\"{}\"".format(test2, shuffle_sentence(test2)))
+    test3 = "I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
+    print("Shuffling \"{}\": \n->\"{}\"".format(test3, shuffle_sentence(test3)))

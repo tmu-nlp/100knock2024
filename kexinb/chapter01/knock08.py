@@ -8,11 +8,12 @@ def cipher(text):
     text = [chr(219 - ord(word)) if 97 <= ord(word) <= 122 else word for word in text]
     return ''.join(text)
 
-test1 = "Aaaaaaa"
-print(cipher(test1))
-test2 = "abcde"
-print(cipher(test2))
-test3 = "ABCDE"
-print(cipher(test3))
-test4 = "NLP is fun!"
-print(cipher(test4))
+if __name__ == "__main__":
+    test1 = "Aaaaaaa"
+    print("Ciphering {}: {}".format(test1, cipher(test1)))
+    test2 = "abcde"
+    print("Ciphering {}: {}".format(test2, cipher(test2)))
+    test3 = "ABCDE"
+    print("Ciphering {}: {}".format(test3, cipher(test3)))
+    test4 = "NLP is fun!"
+    print("Ciphering {}: {}".format(test4, cipher(test4)))
