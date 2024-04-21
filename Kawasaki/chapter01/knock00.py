@@ -1,1 +1,2 @@
-letter = 'stressed'
+str00 = 'stressed'
+str00[::-1]
