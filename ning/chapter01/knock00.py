@@ -1,10 +1,9 @@
 s = "stressed"
 
-#srl = list(reversed(s))
+srl = list(reversed(s))
 #reversedはlistしか使えないため、文字列をリスト化する
 
-#sr = ''.join(list(reversed(s)))
+sr = ''.j oin(list(reversed(s)))
 #一文字ずつが要素として格納されたため、joinを使い一つの文字列に連結する
-#print(sr)
 
 print(s[::-1])
