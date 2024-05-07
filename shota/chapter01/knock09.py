@@ -10,7 +10,7 @@ for words in text:
         random.shuffle(body)
         body = "".join(body)
 
-        words = head + str(body) + tail
+        words = head + body + tail
     
     print(words,end=" ")
 print("")

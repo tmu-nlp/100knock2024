@@ -1,0 +1,1 @@
+head -3 /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/popular-names.txt
