@@ -1,0 +1,1 @@
+sed -e "s/\t/ /g" data/popular-names.txt > data/popular-names-test.txt

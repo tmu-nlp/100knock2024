@@ -5,6 +5,7 @@
 #     この関数を用い，英語のメッセージを暗号化・復号化せよ．
 
 def cipher(text):
+    # if c.islower():
     text = [chr(219 - ord(word)) if 97 <= ord(word) <= 122 else word for word in text]
     return ''.join(text)
 
