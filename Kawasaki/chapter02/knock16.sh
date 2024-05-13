@@ -1,0 +1,1 @@
+split -n 5 "./popular-names.txt" #split:ファイルを分割。-nオプションは分割する数。
