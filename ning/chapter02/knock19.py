@@ -8,3 +8,4 @@ with open("popular-names.txt", "r") as f:
 
 print(c2)
 
+#cut -d ' ' -f 1 "[PATH]/popular-names.txt"|sort|uniq -c|sort -r -n
