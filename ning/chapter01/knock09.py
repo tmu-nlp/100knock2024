@@ -6,7 +6,7 @@ def swords(text):
 
     for word in words:
         if len(word) <= 4:
-            s_words.append(word)
+            s_words.append(word)#長さが４以下の単語は並び替えないこと
         else:
             first_char = word[0]
             last_char = word[-1]
