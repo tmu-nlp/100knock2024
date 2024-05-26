@@ -1,10 +1,10 @@
-import knock35
+from knock35 import word_dict
 import numpy as np
 import matplotlib.pyplot as plt
 import japanize_matplotlib
 from collections import OrderedDict
 
-freq = list(knock35.word_dict.values())
+freq = list(word_dict.values())
 
 plt.hist(freq,bins=10)
 plt.xlabel("単語の異なり度数")

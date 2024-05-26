@@ -1,10 +1,10 @@
-import knock35
+from knock35 import word_dict
 import numpy as np
 import matplotlib.pyplot as plt
 import japanize_matplotlib
 from collections import OrderedDict
 
-top10 = OrderedDict(sorted(knock35.word_dict.items(), key = lambda x:x[1], reverse=True)[:10]) 
+top10 = OrderedDict(sorted(word_dict.items(), key = lambda x:x[1], reverse=True)[:10]) 
 
 
 label = []

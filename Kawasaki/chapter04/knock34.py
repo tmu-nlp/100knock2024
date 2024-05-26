@@ -1,8 +1,8 @@
-import knock30
+from knock30 import sentence_list
 
 noun_list =[]
 
-for sentence in knock30.sentence_list:
+for sentence in sentence_list:
     noun = ""
     count = 0
     for morph in sentence:

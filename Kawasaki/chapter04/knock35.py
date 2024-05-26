@@ -1,10 +1,10 @@
-import knock30
+from knock30 import sentence_list
 from collections import defaultdict #存在チェックが不要
 from collections import OrderedDict #順番ありの辞書にする
 
 word_dict = defaultdict(lambda: 0) #lambdaは初期化の関数
 
-for sentence in knock30.sentence_list:
+for sentence in sentence_list:
     for morph in sentence:
         if morph["pos"] == "記号": #記号はカウントしない
             continue

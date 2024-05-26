@@ -1,8 +1,8 @@
-import knock30
+from knock30 import sentence_list
 
 verb_base = []
 
-for sentence in knock30.sentence_list:
+for sentence in sentence_list:
     for morph in sentence:
         if morph['pos'] == "動詞":
             verb_base.append(morph['base'])
