@@ -1,0 +1,40 @@
+CC = cl.exe
+CXXC = cl.exe
+LINK = link
+CFLAGS = /O2 /GA /GL /Gy /Oi /Ob2 /nologo /W3 /EHsc /MT /wd4244
+LDFLAGS =  /link /OPT:REF /OPT:ICF /LTCG /NXCOMPAT /DYNAMICBASE ADVAPI32.LIB
+DEFS =  -D_CRT_SECURE_NO_DEPRECATE -DDLL_EXPORT -DHAVE_GETENV -DUNICODE -D_UNICODE \
+        -DHAVE_WINDOWS_H -DHAVE_STRING_H -DHAVE_MEMSET -DMODEL_VERSION=@MODEL_VERSION@ \
+        -DVERSION="\"@VERSION@\"" -DPACKAGE="\"cabocha\"" \
+	-DCABOCHA_DEFAULT_RC="\"c:\\Program Files\\cabocha\\etc\\cabocharc\""
+INC = -I. -I.. -Iwin32
+DEL = del
+
+OBJ = chunk_learner.obj learner.obj \
+      chunker.obj dep.obj dep_learner.obj eval.obj libcabocha.obj \
+      ne.obj normalizer.obj param.obj parser.obj \
+      string_buffer.obj svm.obj svm_learn.obj tree.obj \
+      ucs.obj utils.obj morph.obj selector.obj tree_allocator.obj
+
+.cpp.obj:
+	$(CC) $(CFLAGS) $(INC) $(DEFS) -c  $<
+
+all: libcabocha cabocha cabocha-system-eval cabocha-learn cabocha-model-index
+
+cabocha: $(OBJ) cabocha.obj
+	$(LINK) $(LDFLAGS) /out:$@.exe cabocha.obj libcabocha.lib
+
+cabocha-learn: $(OBJ) cabocha-learn.obj
+	$(LINK) $(LDFLAGS) /out:$@.exe cabocha-learn.obj libcabocha.lib
+
+cabocha-system-eval: $(OBJ) cabocha-system-eval.obj
+	$(LINK) $(LDFLAGS) /out:$@.exe cabocha-system-eval.obj libcabocha.lib
+	
+cabocha-model-index: $(OBJ) cabocha-model-index.obj
+	$(LINK) $(LDFLAGS) /out:$@.exe cabocha-model-index.obj libcabocha.lib
+
+libcabocha: $(OBJ)
+	$(LINK) $(LDFLAGS) /out:$@.dll $(OBJ) win32/libcrfpp.lib /dll
+
+clean:
+	$(DEL) *.exe *.obj *.dll *.a *.lib *.o *.exp *.def
