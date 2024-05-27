@@ -18,21 +18,25 @@ import knock41
 
 
 for sentence in knock41.sentences:
-    for chunk in sentence.chunks: #sentence.chunksリストに含まれる各Chunkのインスタンスを順に取り出す
-        if chunk.dst != -1: #文中の文節が係り先をもつなら
-            #modifier = [] #係り元
-            #modifee = [] #係り先
-            modifier= ""
-            modifee = ""
+   
+    #sentence.chunksリストに含まれる各Chunkクラスのインスタンスを取り出す
+    for chunk in sentence.chunks: 
+        #文中の文節が係り先をもつなら
+        if chunk.dst != -1: 
+            modifier= "" #係り元                                         #modifier = [] 
+            modifee = "" #係り先                                         #modifee = [] 
+            
+            #係り元の文節の形態素のうち、記号以外の表層形を連結
             for morph in chunk.morphs:
                 if morph.pos != "記号":
-                    modifier +=morph.surface
-                    #modifier.append(morph.surface)     
+                    modifier +=morph.surface                            #modifier.append(morph.surface)     
+                    
             
+            #係り先の文節の形態素のうち、記号以外の表層形を連結
             for morph in sentence.chunks[chunk.dst].morphs:
                 if morph.pos != "記号":
-                    modifee +=morph.surface
-                    #modifee.append(morph.surface)
-                
-            print(modifier+"\t"+modifee+"\n")  
-            #print("".join(modifier)+"\t"+"".join(modifee))             
+                   modifee +=morph.surface                              #modifee.append(morph.surface)                  
+            
+            #係り元の文節と係り先の文節をタブ区切りで出力                   #形態素に対する全ての処理の後に一気に文字列を作成
+            print(modifier+"\t"+modifee+"\n")                           #print("".join(modifier)+"\t"+"".join(modifee))             
+            
