@@ -1,0 +1,1 @@
+cat './popular-names.txt' | sed 's/\t/ /g' #cat:catenate、ファイルの中身を確認したり連結したりする, sed:stream editor、入力したテキストの行を1行ずつ処理して返す, tr:translate、テキストの文字を置換する, expand:タブをスペースに変換

@@ -1,2 +1,2 @@
 str00 = 'stressed'
-str00[::-1]
+print(str00[::-1])
