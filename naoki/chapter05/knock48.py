@@ -16,7 +16,6 @@ class Chunk():
         self.dst = dst 
         #かかり元の文節のリスト
         self.srcs = []
-
 class Sentence():
     def __init__(self,chunks):
         self.chunks = chunks #チャンクのリスト
@@ -25,13 +24,6 @@ class Sentence():
                 self.chunks[chunk.dst].srcs.append(i)
                 #chunks[chunk.dst]はかかり受け先のindex
                 #.srcsはかかり元文節インデックス番号のリスト
-                """ 
-                例) 助詞 ... 動詞
-                  (index4)  (index8)
-                 ⇒self.chunks[chunk.dst] ⇒ 8
-                   self.chunks[chunk.dst].srcs ⇒ 元々のかかり元キー
-                   self.chunks[chunk.dst].srcs.append(i) ⇒4追加
-                 """
 
 sentences = []
 morphs = []
@@ -40,27 +32,41 @@ chunks = []
 with open('ai.ja.txt.parsed','r') as f:
     for line in f:
         if line[0] == '*':
-            #EOSの処理が行われない(文章の途中)
-            if len(morphs) > 0:
-                #前のchunkをchunksに入れる
+            if len(morphs) >0:
                 chunks.append(Chunk(morphs,dst))
                 morphs = []
-            #dstを更新
             dst = int(line.split(' ')[2].rstrip('D'))
         elif line == 'EOS\n':
-            if len(morphs) > 0:#この処理はなぜ？
-                chunks.append(Chunk(morphs,dst)) #EOS直前のdst
+            if len(morphs) > 0:
+                chunks.append(Chunk(morphs,dst))
                 sentences.append(Sentence(chunks))
-            #文章が終わったので初期化
             morphs = []
             chunks = []
             dst = None
         else :
             morphs.append(Morph(line))
 
-for chunk in sentences[1].chunks:
-    print([morph.surface for morph in chunk.morphs], chunk.dst, chunk.srcs)
-
-#参考 knock41_pic.pdf
-
-
+for sentence in sentences:
+    for chunk in sentence.chunks:
+        #[morph_1,morph_2,...] dst [*,*,.. ]
+        for morph1 in chunk.morphs:
+            if morph1.pos == '名詞':
+                path = []
+                noun_particle = ''
+                for morph2 in chunk.morphs:
+                    if morph2.pos != '記号':
+                        noun_particle += morph2.surface
+                path.append(noun_particle) #名詞句の完成
+                while chunk.dst != -1: 
+                    """
+                    名詞句のかかり先があれば、かかり元リストに名詞句のdstがあるものを抽出してくる。
+                    """
+                    noun = ''
+                    for morph3 in sentence.chunks[chunk.dst].morphs:
+                        if morph3.pos != '記号':
+                            noun += morph3.surface
+                    path.append(noun) #インテンドを下げるとうまくいかない
+                    #かかり先に移動
+                    chunk = sentence.chunks[chunk.dst]
+                print('->'.join(path)) #区切り文字に->を指定
+                break

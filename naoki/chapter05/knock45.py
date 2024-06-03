@@ -16,7 +16,6 @@ class Chunk():
         self.dst = dst 
         #かかり元の文節のリスト
         self.srcs = []
-
 class Sentence():
     def __init__(self,chunks):
         self.chunks = chunks #チャンクのリスト
@@ -25,13 +24,6 @@ class Sentence():
                 self.chunks[chunk.dst].srcs.append(i)
                 #chunks[chunk.dst]はかかり受け先のindex
                 #.srcsはかかり元文節インデックス番号のリスト
-                """ 
-                例) 助詞 ... 動詞
-                  (index4)  (index8)
-                 ⇒self.chunks[chunk.dst] ⇒ 8
-                   self.chunks[chunk.dst].srcs ⇒ 元々のかかり元キー
-                   self.chunks[chunk.dst].srcs.append(i) ⇒4追加
-                 """
 
 sentences = []
 morphs = []
@@ -40,27 +32,48 @@ chunks = []
 with open('ai.ja.txt.parsed','r') as f:
     for line in f:
         if line[0] == '*':
-            #EOSの処理が行われない(文章の途中)
-            if len(morphs) > 0:
-                #前のchunkをchunksに入れる
+            if len(morphs) >0:
                 chunks.append(Chunk(morphs,dst))
                 morphs = []
-            #dstを更新
             dst = int(line.split(' ')[2].rstrip('D'))
         elif line == 'EOS\n':
-            if len(morphs) > 0:#この処理はなぜ？
-                chunks.append(Chunk(morphs,dst)) #EOS直前のdst
+            if len(morphs) > 0:
+                chunks.append(Chunk(morphs,dst))
                 sentences.append(Sentence(chunks))
-            #文章が終わったので初期化
             morphs = []
             chunks = []
             dst = None
         else :
             morphs.append(Morph(line))
 
-for chunk in sentences[1].chunks:
-    print([morph.surface for morph in chunk.morphs], chunk.dst, chunk.srcs)
+with open('verb_par.txt',mode='w') as f1:
+    for sentence in sentences:
+        for chunk in sentence.chunks:
+            for morph1 in chunk.morphs:
+                if morph1.pos == '動詞':
+                    part = []
+                    #かかり元チェック
+                    for src in chunk.srcs:
+                        for morph2 in sentence.chunks[src].morphs:
+                            if morph2.pos == '助詞':    
+                                part.append(morph2.surface)
+                    #チェックリスト
+                    if len(part) > 0:
+                        #重複を削除した集合⇒リスト化⇒ソート
+                        sort_part = sorted(list(set(part)))
+                        part_line = ' '.join(part)
+                        line = morph1.base + '\t' + part_line
+                        print(line)
+                        f1.write(line+'\n') 
+                    break #動詞が見つかればループを抜け出す
+"""
+unixコマンド
+sort verb_par.txt|uniq -c |sort -nr|grep -e "行う" -e "なる" -e"与える"
+"""
 
-#参考 knock41_pic.pdf
+
+
+
+
 
 
