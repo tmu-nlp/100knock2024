@@ -16,7 +16,6 @@ class Chunk():
         self.dst = dst 
         #かかり元の文節のリスト
         self.srcs = []
-
 class Sentence():
     def __init__(self,chunks):
         self.chunks = chunks #チャンクのリスト
@@ -25,13 +24,6 @@ class Sentence():
                 self.chunks[chunk.dst].srcs.append(i)
                 #chunks[chunk.dst]はかかり受け先のindex
                 #.srcsはかかり元文節インデックス番号のリスト
-                """ 
-                例) 助詞 ... 動詞
-                  (index4)  (index8)
-                 ⇒self.chunks[chunk.dst] ⇒ 8
-                   self.chunks[chunk.dst].srcs ⇒ 元々のかかり元キー
-                   self.chunks[chunk.dst].srcs.append(i) ⇒4追加
-                 """
 
 sentences = []
 morphs = []
@@ -40,27 +32,37 @@ chunks = []
 with open('ai.ja.txt.parsed','r') as f:
     for line in f:
         if line[0] == '*':
-            #EOSの処理が行われない(文章の途中)
-            if len(morphs) > 0:
-                #前のchunkをchunksに入れる
+            if len(morphs) >0:
                 chunks.append(Chunk(morphs,dst))
                 morphs = []
-            #dstを更新
             dst = int(line.split(' ')[2].rstrip('D'))
         elif line == 'EOS\n':
-            if len(morphs) > 0:#この処理はなぜ？
-                chunks.append(Chunk(morphs,dst)) #EOS直前のdst
+            if len(morphs) > 0:
+                chunks.append(Chunk(morphs,dst))
                 sentences.append(Sentence(chunks))
-            #文章が終わったので初期化
             morphs = []
             chunks = []
             dst = None
         else :
             morphs.append(Morph(line))
 
-for chunk in sentences[1].chunks:
-    print([morph.surface for morph in chunk.morphs], chunk.dst, chunk.srcs)
-
-#参考 knock41_pic.pdf
-
-
+from graphviz import Digraph
+num = 0
+for sentence in sentences:
+    dg = Digraph(format='png')
+    for chunk in sentence.chunks:
+        if chunk.dst != -1:
+            modiin = []
+            modifor = []
+            for morph in chunk.morphs:
+                if morph.pos != "記号":
+                    modiin.append(morph.surface)
+            for morph in sentence.chunks[chunk.dst].morphs:
+                if morph.pos != "記号":
+                    modifor.append(morph.surface)
+            phrasein = ''.join(modiin)
+            phraseout = ''.join(modifor)
+            dg.edge(phrasein, phraseout)
+            # print(f"{phrasein}\t{phraseout}")
+    dg.render('./44/' + str(num))
+    num += 1
