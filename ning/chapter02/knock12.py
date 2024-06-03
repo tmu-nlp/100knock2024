@@ -1,5 +1,6 @@
 with open("popular-names.txt", "r") as f, open("col1.txt", "w") as fc1, open("col2.txt", "w") as fc2:#読み取りと書き込み
-    lines = f.readlines()#すべての行を読み取り、リストとして返し、格納
+    lines = f.readlines()#すべての行を読み取り、リストとして返す
+    print(lines)
     count = len(lines)
     for i, line in enumerate(lines): #リストの各要素とそのインデックスを取得
         parts = line.split()
@@ -11,4 +12,9 @@ with open("popular-names.txt", "r") as f, open("col1.txt", "w") as fc1, open("co
         else:#改行を追加
             fc1.write(name + '\n') 
             fc2.write(sex + '\n') 
+
+#1列目
+#cut -f 1 -d " " '[PATH]/popular-names.txt'
+#2列目
+#cut -f 2 -d " " '[PATH]/popular-names.txt'
 

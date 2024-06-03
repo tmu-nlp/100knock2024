@@ -1,0 +1,1 @@
+head -n 5 "./popular-names_replaced.txt" #head:指定した数の先頭の行を出力。-nはオプション。

@@ -1,0 +1,1 @@
+tail -n 5 "./popular-names.txt" #head:指定した数の最後の行を出力。-nはオプション。
