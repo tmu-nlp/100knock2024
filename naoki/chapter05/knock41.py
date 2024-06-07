@@ -1,47 +1,66 @@
-"""
-かかり先:文節解析において、ある文節が他の文節にかかる先を指す。「私は本を読んでいます」であれば、私はが本を読んでいますのかかり先になる。
-かかり元:文節解析においてある文節が他の文節からかかられている元を差し、先の例ならば本を読んでいますが私はのかかり元である
-"""
+class Morph():
+    def __init__(self, morph):
+        surface, attr = morph.split('\t')
+        attr_list = attr.split(',')
+        self.surface = surface
+        self.base = attr_list[6]
+        self.pos = attr_list[0]
+        self.pos1 = attr_list[1]
 
-class Chunk(object):
+class Chunk():
     #文節を表すオブジェクトを定義
-    def __init__(self,bun,num,chunk_list):
+    def __init__(self,morphs,dst):
         #文節の形態素リスト
-        self.morphs = bun
+        self.morphs = morphs
         #かかり先の文節のインデックス
-        self.dst = num
+        self.dst = dst 
         #かかり元の文節のリスト
-        self.srcs = chunk_list
-with open ('100knock2024/naoki/chapter05/ai.ja.txt.parsed','r') as f:
-    lines = f.readlines()
-    all_sentense = []
-    sentense = []
-    Flag = 0
-    chunk_dic = {}
-    pnum = -2
-    bnum = -2 #初期値
-    for text in lines:
-        #行の先頭に文字がある場合
-        if text[0] == '*':
-            #pnumというキーがchunk_dicに存在していない場合、そのキーを追加し、値として空のリスト[]を設定する。bnumをpnumのキーに対応するリストに追加
-            chunk_dic.setdefault(pnum,[]).append(bnum)
-            #chunk_dicにbnumがないとき空のリストを追加
-            if bnum not in chunk_dic:
-                chunk_dic[bnum] = []
-            #sentenseが空でない場合、それをall_sentenseに追加する
-            if sentense:
-                all_sentense.appned(Chunk(sentense,pnum,chunk_dic[bnum]).__dict__)
-            #かかり先辞書をリセット
-            sentense = []
-            pnum = int(text.split(" ")[2][:-1])
-            bnum = int(text.split(' ')[1])
-            if Flag == 1:
-                chunk_dic = {}
-                Flag = 0
-            continue
-        if text[0:3] == 'EOS':
-            Flag = 1
-        else:
-            word = text.split('\t')
-            sentense.appned(word[0])
-            
+        self.srcs = []
+
+class Sentence():
+    def __init__(self,chunks):
+        self.chunks = chunks #チャンクのリスト
+        for i, chunk in enumerate(self.chunks):
+            if chunk.dst != -1: #係受け先が存在
+                self.chunks[chunk.dst].srcs.append(i)
+                #chunks[chunk.dst]はかかり受け先のindex
+                #.srcsはかかり元文節インデックス番号のリスト
+                """ 
+                例) 助詞 ... 動詞
+                  (index4)  (index8)
+                 ⇒self.chunks[chunk.dst] ⇒ 8
+                   self.chunks[chunk.dst].srcs ⇒ 元々のかかり元キー
+                   self.chunks[chunk.dst].srcs.append(i) ⇒4追加
+                 """
+
+sentences = []
+morphs = []
+chunks = []
+
+with open('ai.ja.txt.parsed','r') as f:
+    for line in f:
+        if line[0] == '*':
+            #EOSの処理が行われない(文章の途中)
+            if len(morphs) > 0:
+                #前のchunkをchunksに入れる
+                chunks.append(Chunk(morphs,dst))
+                morphs = []
+            #dstを更新
+            dst = int(line.split(' ')[2].rstrip('D'))
+        elif line == 'EOS\n':
+            if len(morphs) > 0:#この処理はなぜ？
+                chunks.append(Chunk(morphs,dst)) #EOS直前のdst
+                sentences.append(Sentence(chunks))
+            #文章が終わったので初期化
+            morphs = []
+            chunks = []
+            dst = None
+        else :
+            morphs.append(Morph(line))
+
+for chunk in sentences[1].chunks:
+    print([morph.surface for morph in chunk.morphs], chunk.dst, chunk.srcs)
+
+#参考 knock41_pic.pdf
+
+

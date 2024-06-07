@@ -10,6 +10,9 @@ class Chank:
   def marge_morphs(self) -> str:
     return ''.join([ morph.surface for morph in self.morphs if morph.pos != '記号' ])
   
+  def marge_morphs_only_nouns(self) -> str:
+    return ''.join([ morph.surface for morph in self.morphs if morph.pos == '名詞' ])
+  
   def include_pos(self, pos: str, pos1: str = None):
     for morph in self.morphs:
       if pos1 == None and morph.pos == pos:
@@ -23,7 +26,12 @@ class Chank:
       return [morph for morph in self.morphs if morph.pos == pos]
     else :
       return [morph for morph in self.morphs if morph.pos == pos and morph.pos1 == pos1]
-
+    
+  def aliased(self, aliase: str) -> str:
+    word = self.marge_morphs()
+    nouns = self.marge_morphs_only_nouns()
+    return word.replace(nouns, aliase)
+  
 def get_chanks() -> list[Chank]:
   chanks = []
   morphs = []
@@ -106,8 +114,13 @@ def get_chanks_by_sentence() -> list[list[Chank]]:
   return sentences
 
 if __name__ == "__main__":
-  chanks = get_chanks()
+  # chanks = get_chanks()
 
-  for chank in chanks[:10]:
-    print(f"{chank.srcs}: chank: {chank.marge_morphs()} to: {chank.dst}")
+  # for chank in chanks[:10]:
+  #   print(f"{chank.srcs}: chank: {chank.marge_morphs()} to: {chank.dst}")
     
+  sentences = get_chanks_by_sentence()
+  for i, chanks in enumerate(sentences):
+    print(f"------index {i}------")
+    for chank in chanks:
+      print(f"{chank.srcs}: chank: {chank.marge_morphs()} to: {chank.dst}")
