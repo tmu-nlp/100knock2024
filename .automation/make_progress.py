@@ -64,7 +64,7 @@ def plot_progress(users: np.array, scores: np.array):
     date_list.append(datetime.date(2024, 5, 13))
     date_list.append(datetime.date(2024, 5, 13))
     date_list.append(datetime.date(2024, 5, 20))
-    date_list.append(datetime.date(2024, 5, 27))
+    date_list.append(datetime.date(2024, 6, 3))
     date_list.append(datetime.date(2024, 6, 10))
     date_list.append(datetime.date(2024, 6, 17))
     date_list.append(datetime.date(2024, 7, 1))
