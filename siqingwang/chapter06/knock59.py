@@ -1,56 +1,58 @@
-# 59. Hyper-parameter tuning
-
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import GridSearchCV, train_test_split
+from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
-import matplotlib.pyplot as plt
-import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
 
+# Load data
+train_data = pd.read_csv('train.txt', sep='\t', header=None, names=['CATEGORY', 'TITLE'])
+test_data = pd.read_csv('test.txt', sep='\t', header=None, names=['CATEGORY', 'TITLE'])
 
-# Preprocess the data
-def preprocess_features(features):
-    le = LabelEncoder()
-    features['CATEGORY'] = le.fit_transform(features['CATEGORY'])
-    X = features.drop(columns=['CATEGORY', 'TOKENS'])
-    y = features['CATEGORY']
-    return X, y, le
+X_train, y_train = train_data['TITLE'], train_data['CATEGORY']
+X_test, y_test = test_data['TITLE'], test_data['CATEGORY']
 
+# Define pipeline components
+vectorizer = CountVectorizer(stop_words='english', min_df=5)  # Adjust parameters
+classifiers = [
+    ('Logistic Regression', LogisticRegression(max_iter=1000)),
+    ('Multinomial Naive Bayes', MultinomialNB()),
+    ('Support Vector Machine', SVC()),
+    ('Random Forest', RandomForestClassifier())
+]
 
-train_features = pd.read_csv('train.feature.txt', sep='\t')
-valid_features = pd.read_csv('valid.feature.txt', sep='\t')
-test_features = pd.read_csv('test.feature.txt', sep='\t')
-
-X_train, y_train, label_encoder = preprocess_features(train_features)
-X_valid, y_valid, _ = preprocess_features(valid_features)
-X_test, y_test, _ = preprocess_features(test_features)
-
-# Combine train and validation datasets for cross-validation during GridSearch
-X_combined = pd.concat([X_train, X_valid])
-y_combined = np.concatenate([y_train, y_valid])
-
-# Define a grid of hyperparameters
-param_grid = {
-    'C': [0.01, 0.1, 1, 10, 100],
-    'solver': ['liblinear', 'saga', 'newton-cg', 'lbfgs'],
-    'penalty': ['l2']
+# Define hyperparameters grid for each classifier
+param_grids = {
+    'Logistic Regression': {'classifier__C': [0.001, 0.01, 0.1, 1, 10]},
+    'Multinomial Naive Bayes': {'classifier__alpha': [0.1, 0.5, 1.0]},
+    'Support Vector Machine': {'classifier__C': [0.1, 1, 10], 'classifier__kernel': ['linear', 'rbf']},
+    'Random Forest': {'classifier__n_estimators': [50, 100, 200], 'classifier__max_depth': [None, 10, 20]}
 }
 
-# Initialize the logistic regression model
-logistic_regression = LogisticRegression(max_iter=1000)
+# Grid search with cross-validation to find the best model
+best_model = None
+best_score = 0.0
 
-# Perform grid search with cross-validation
-grid_search = GridSearchCV(logistic_regression, param_grid, cv=5, scoring='accuracy', n_jobs=-1, verbose=1)
-grid_search.fit(X_combined, y_combined)
-
-# Get the best model
-best_model = grid_search.best_estimator_
-
-# Print the best parameters and best score
-print(f"Best parameters: {grid_search.best_params_}")
-print(f"Best cross-validated accuracy: {grid_search.best_score_}")
+for name, classifier in classifiers:
+    pipeline = Pipeline([
+        ('vectorizer', vectorizer),
+        ('classifier', classifier)
+    ])
+    grid_search = GridSearchCV(pipeline, param_grids[name], cv=3, scoring='accuracy')
+    grid_search.fit(X_train, y_train)
+    if grid_search.best_score_ > best_score:
+        best_model = grid_search.best_estimator_
+        best_score = grid_search.best_score_
+        best_params = grid_search.best_params_
+        best_classifier_name = name
 
 # Evaluate the best model on the test data
 test_accuracy = accuracy_score(y_test, best_model.predict(X_test))
-print(f"Test accuracy: {test_accuracy}")
+
+print(f'Best classifier: {best_classifier_name}')
+print(f'Best parameters: {best_params}')
+print(f'Validation Accuracy: {best_score:.4f}')
+print(f'Test Accuracy: {test_accuracy:.4f}')
