@@ -1,0 +1,26 @@
+digraph {
+	"ディープラーニングの" -> "発明と"
+	"発明と" -> "普及を"
+	"急速な" -> "普及を"
+	"普及を" -> "受けて"
+	"受けて" -> "立ち上げられている"
+	"研究開発の" -> "現場においては"
+	"現場においては" -> "立ち上げられている"
+	"デミス・ハサビス" -> "率いる"
+	"率いる" -> "DeepMindを"
+	"DeepMindを" -> "筆頭に"
+	"筆頭に" -> "立ち上げられている"
+	Vicarious -> IBMCorticalLearningCenter
+	IBMCorticalLearningCenter -> "全脳アーキテクチャ"
+	"全脳アーキテクチャ" -> PEZYComputing
+	PEZYComputing -> OpenCog
+	OpenCog -> GoodAI
+	GoodAI -> nnaisense
+	nnaisense -> "IBMSyNAPSE等"
+	"IBMSyNAPSE等" -> "汎用人工知能"
+	"汎用人工知能" -> "AGIを"
+	"AGIを" -> "開発する"
+	"開発する" -> "プロジェクトが"
+	"プロジェクトが" -> "立ち上げられている"
+	"数多く" -> "立ち上げられている"
+}

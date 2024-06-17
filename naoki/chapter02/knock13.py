@@ -5,4 +5,7 @@ with open("C:/Users/shish_sf301y1/Desktop/pyファイル/output_col1.txt") as f1
     for n,s in zip(name,sex):
         n = n.replace('\n','')
         s = s.replace('\n','')
-        f12.write(n+'\t'+s)
+        f12.write(n+'\t'+s+'\n')
+"""
+paste 'col1.txt' 'col2.txt'
+"""

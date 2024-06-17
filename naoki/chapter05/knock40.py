@@ -27,7 +27,8 @@ with open("ai.ja.txt.parsed", "r") as f:
         pos.pop() #\nを削除
         pos.extend(temp) #ココがわからない
         list.append(Morph(pos).__dict__)
-print(morph_list)
+#print(morph_list)
+print(pos)
 '''
 今は{'surface': 'の', 'base': 'の', 'pos': '名詞', 'pos1': '非自立'}, {'surface': 'は', 'base': 'は', 'pos': '助詞','pos1': '係助詞'}のようなものがテキスト
 '''

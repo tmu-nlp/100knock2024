@@ -6,3 +6,19 @@ with urllib.request.urlopen( "https://nlp100.github.io/data/popular-names.txt") 
         f1.write(col1+"\n")
         col2 = line.decode().split()[1]
         f2.write(col2+"\n")
+"""
+UNIXコマンド
+cut -f 1 popular-names.txt
+cut -f 2 popular-names.txt
+"""
+
+"""
+encode 文字列⇒バイト列
+decode バイト列⇒文字列
+バイト列:
+「１バイトのデータを並べた、データの集まり」のことです。
+（例）b'\xe3\x81\x82'
+左端の「b」は、「バイト列」を意味する記号です。
+その隣の「xe3」の「x」は、「16進数形式」を意味する記号です。
+数字「e3」が、16進数形式で表示された「1バイト（8ビット）」のデータです。
+"""

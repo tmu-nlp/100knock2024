@@ -61,7 +61,7 @@ with open('verb_par.txt',mode='w') as f1:
                     if len(part) > 0:
                         #重複を削除した集合⇒リスト化⇒ソート
                         sort_part = sorted(list(set(part)))
-                        part_line = ' '.join(part)
+                        part_line = ' '.join(sort_part)
                         line = morph1.base + '\t' + part_line
                         print(line)
                         f1.write(line+'\n') 
