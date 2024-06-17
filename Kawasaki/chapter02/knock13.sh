@@ -1,1 +1,0 @@
-paste './col1.txt' './col2.txt' #paste:複数ファイルを行単位で連結。

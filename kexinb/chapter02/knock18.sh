@@ -1,1 +1,0 @@
-sort -nrk 3 data/popular-names.txt > data/popular-names-sortbycol3-unix.txt

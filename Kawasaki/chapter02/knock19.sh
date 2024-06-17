@@ -1,1 +1,0 @@
-cut -f 1  popular-names.txt | sort | uniq -c | sort -n -r #uniqコマンドの-cオプションは各行の前に出現回数を示す。

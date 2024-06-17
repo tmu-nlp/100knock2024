@@ -1,1 +1,0 @@
-cut -f 3  "./popular-names.txt" | sort -n -r #-nオプションで数値を並び替える。-rオプションで降順を選択。
