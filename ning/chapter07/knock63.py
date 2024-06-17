@@ -1,7 +1,7 @@
 from gensim.models import KeyedVectors
 
 # モデルのロード
-model = KeyedVectors.load_word2vec_format("/Users/daining/Desktop/Python/100knock2024/chapter07/GoogleNews-vectors-negative300.bin.gz", binary=True)
+model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin.gz", binary=True)
 
 # アナロジーベクトルを計算し、類似度の高い10語を取得
 similar_words = model.most_similar_cosmul(positive=["Spain", "Athens"], negative=["Madrid"], topn=10)

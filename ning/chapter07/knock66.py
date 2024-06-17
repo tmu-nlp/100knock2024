@@ -5,7 +5,7 @@ import pandas as pd
 # モデルのロード
 model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin", binary=True)
 
-# WordSimilarity-353の評価データを読み込み
+# WordSimilarity-353の評価データを読み込み 
 df = pd.read_csv("combined.csv")
 
 # 単語ベクトルにより計算される類似度を計算

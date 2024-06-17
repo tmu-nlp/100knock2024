@@ -3,7 +3,6 @@
 2. questions-words.txtファイルを読み込み、カテゴリごとに単語アナロジーの評価データをDataFrameに整理
 3. 各アナロジー問題について、ベクトル計算を行い、最も類似する単語とその類似度を取得
 4. 結果をAnology_example.csvファイルに保存
-
 """
 
 import pandas as pd
