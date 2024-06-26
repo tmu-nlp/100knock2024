@@ -1,6 +1,5 @@
 with open("popular-names.txt", "r") as f, open("col1.txt", "w") as fc1, open("col2.txt", "w") as fc2:#読み取りと書き込み
     lines = f.readlines()#すべての行を読み取り、リストとして返す
-    print(lines)
     count = len(lines)
     for i, line in enumerate(lines): #リストの各要素とそのインデックスを取得
         parts = line.split()
