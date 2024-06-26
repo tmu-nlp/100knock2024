@@ -1,0 +1,1 @@
+paste /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/col1.txt /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/col2.txt > paste /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/col1.txt /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/col2.txt > /Users/shirakawamomoko/Desktop/nlp100保存/chapter02/check13.txt

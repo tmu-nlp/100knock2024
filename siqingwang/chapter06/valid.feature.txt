@@ -1,0 +1,1102 @@
+CATEGORY	TOKENS	NUM_WORDS	NUM_CAPITALS	NUM_PUNCTUATIONS
+b	Chicago mayor 's pension plan would hike taxes , cut benefits-reports	11	1	3
+t	Has Curiosity taken life to Mars ? 377 Earth microbes were on rover	13	4	1
+b	Fitch Revises Outlook on Portugal to Positive ; Affirms at 'BB+ '	12	8	4
+e	NEW YORK ( AP ) — Annie Baker 's `` The Flick '' has won the 2014 Pulitzer Prize for ...	21	15	8
+b	UPDATE 2-Deutsche Bank profit rises as investment bank focus pays off	11	8	1
+b	UPDATE 3-Bayer wins Merck & Co 's $ 14 bln consumer unit auction	13	9	4
+b	UPDATE 2-BMW to invest $ 1 bln to expand US production by 50 pct	14	11	2
+t	Ex-Merrill CEO says he has 'no knowledge ' of Google search wipe	12	6	3
+t	Twitter , Google Add Products in Rivalry for Mobile-Ad Dominance	10	8	2
+e	Game Of Thrones Series 4 premiere ... Sex & death , weddings & war , loyalty ...	17	5	10
+b	US STOCKS SNAPSHOT-Tech leads Wall St higher but DuPont drags	10	21	1
+t	Apple Trying To Cut Streaming TV Deal With Comcast : WSJ	11	13	1
+b	UPDATE 2-BNP can absorb US fine without cash call , CEO tells paper	13	14	2
+b	Wells Fargo profit rises 14 pct as costs fall	9	2	0
+b	NY top court says towns can ban fracking	8	2	0
+m	Minnesota Becomes First State To Ban Antibacterial Chemical Triclosan From ...	11	10	3
+m	Mom 'Trusting God ' for Ebola-Infected US Doctor 's Life	10	9	4
+b	Pilgrim 's Pride Said to Raise Hillshire Bid to $ 55 a Share	13	7	2
+e	Rob Kardashian flying personal trainer to Paris to keep fit during sister Kim 's ...	15	4	4
+b	GM to seek court protection against ignition lawsuits	8	2	0
+b	UPDATE 2-California DMV probing possible breach of credit card system	10	10	1
+e	The smile that says she 's moved on ! Sofia Vergara grins on lunch date with 'new ...	18	3	6
+e	Trace Adkins Is Getting Divorced From Wife Rhonda Adkins	9	9	0
+b	UPDATE 1-IMF : global recovery to accelerate in 2015 , no brutal slowdown in ...	15	9	6
+e	Kanye will be pleased ! Kim Kardashian shows off her pole dancing skills in ...	15	3	4
+m	Alzheimer 's May Be Thwarted by Renewal of Fetal-Brain Protein	10	8	2
+e	US TV network Fox to air live 'Grease ' musical in 2015	12	6	2
+e	'Neighbors ' Tops 'Spider-Man ' to Open as No . 1 Weekend Movie ( 1 )	16	8	8
+b	Sterling climbs against flagging euro after ECB warning	8	4	0
+b	UPDATE 2-Whiting to buy Kodiak for $ 3.8 bln , create No . 1 Bakken producer	16	10	5
+t	House Panel to Probe GM Recall of Models for Faulty Switches ( 2 )	14	9	2
+b	UPDATE 1-Fitch cuts Alcoa to `` junk '' status	9	8	3
+b	RPT-US small businesses lobby for survival of embattled Ex-Im Bank	10	8	2
+t	More Than 250 New Emoji To Be Released , And We Have The List	14	12	1
+b	Osborne touts UK recovery on return to skeptical IMF	9	6	0
+b	NYMEX-US crude above $ 107 a barrel on Iraq violence	10	8	2
+b	Fitch : Banks ' Cover Pool Encumbrance Remains Broadly Stable	10	8	2
+b	Asian Stocks Outside Japan Fall Before Fed Meeting Ends	9	9	0
+b	Morgan Stanley 's Gorman Seeks Higher Payouts With Goal of 100 %	12	8	2
+t	Oculus Buys Startup RakNet Ahead of Facebook Deal Close	9	9	0
+b	Japan June flash manufacturing PMI shows first expansion in 3 months	11	5	0
+e	Kim Kardashian looks at FAKE French chateau as possible wedding location	11	7	0
+b	Europe Stocks Fall With S & P 500 Futures as Italian Bonds Decline	13	10	1
+e	VMAs Winners List 2014 Includes 5 Seconds Of Summer	9	9	0
+b	UPDATE 1-US private sector adds 281000 jobs in June -ADP	10	12	2
+b	Malaysia not sure which way lost jet was headed	9	1	0
+e	'Hunger Games : Mockingjay ' Teaser Hints At Peeta 's Downfall	11	8	4
+b	GLOBAL MARKETS-World shares hover near record high	7	14	1
+b	GRAINS-Corn falls for seventh session , bumper supplies drag	9	7	2
+b	RPT-Fitch Downgrades Solocal to 'RD ' ; Re-Assigns IDR ' B- ' ; Outlook Stable	15	16	9
+b	India says US snooping `` completely unacceptable ''	8	3	2
+e	Jennifer Connelly heads to Noah afterparty ... but Russell Crowe looks glum	12	5	3
+e	Police visited virgin killer Elliot Rodger 's apartment one month before rampage	12	3	1
+b	Allergan says Valeant 's offer overstated tax and R & D savings	12	4	2
+t	The Winner In The War Between Xbox One , PS4 And Wii U Is ... Everyone	16	15	4
+b	Rhode Island Risks Junk Grade If It Skips Paying 38 Studios Debt	12	11	0
+m	Ebola Death Toll Rises To 467 In West Africa	9	8	0
+e	Kelly Osbourne gets new tattoo on her head	8	2	0
+b	McDonald 's CEO Under Pressure	5	7	1
+e	Joan Rivers Slams Lena Dunham 's Weight , Says Her Message Is 'Stay Fat . Get ...	17	13	7
+e	Kaley Cuoco Talks Ryan Sweeting Wedding , Henry Cavill Fling	10	9	1
+t	Facebook Acquires Fitness-Tracking App to Build Mobile Portfolio	8	8	1
+b	Fitch Affirms Kaluga Region at 'BB ' ; Outlook Stable	10	8	3
+e	Meet Kendall Jones , The Texan Cheerleader Whose Exotic Animal Hunts ...	12	10	4
+b	Fiat-Chrysler to be able to produce over 6 mln cars/yr by 2018-CEO	12	5	3
+e	Wedding day in Florence for Kim Kardashian , Kanye West	10	6	1
+t	It 's Still The Information Super Toll Road : An Intended Consequence of Net ...	15	11	5
+b	UPDATE 2-Wells Fargo profit beats estimates , sets aside less for bad loans	13	8	2
+b	US Navy Seizes Tanker , Foiling Libya Rebel Attempt to Sell Oil	12	11	1
+t	Is Apple shifting tactics to take on Samsung ? Firm launches 'cut-price ' version of ...	16	4	7
+t	Apple Teams Up With Long-Time Tech Rival	7	8	1
+b	US leads protest at UN on Russian move in Ukraine	10	6	0
+b	Boeing sees $ 5.2 trln jet market , win vs Airbus on twin-aisles	13	2	4
+b	OECD cuts China 2014 growth forecast to 7.4 pct	9	5	1
+b	Janet Yellen Keeps the Fed on Course	7	5	0
+t	Facebook Buying Mobile-Data Company Pryte	5	6	1
+b	Brent Falls to 3-Week Low as Libya Rebels Reopen Ports	10	8	1
+t	NHTSA chief : GM did not share critical information with US agency	12	9	1
+t	Newfound Earth-Like Planet , Kepler-186f , Is 'Best Case ' For Hosting Life ...	14	11	9
+e	'How I Met Your Mother ' Series Finale Recap : 'Last Forever '	13	10	5
+b	Pershing Seeks Changes to Allergan Board to Push Sale	9	7	0
+e	Gwyneth Paltrow Breaks Silence After Split From Chris Martin	9	9	0
+t	Outrage from viewers as baby eagle is left to die on wildlife webcam after ...	15	1	3
+b	FOREX-Dollar near 4-mth high as data lifts sentiment , euro wary of ECB	13	9	3
+b	WRAPUP 3-Fannie Mae , Freddie Mac post profits driven by legal settlements	12	10	2
+e	Dakota Johnson rocks a low-key look in ripped jeans and a tee ... as first footage ...	17	2	7
+e	The cheapest dress at the CFDAs ? Target exec wins style points for wearing $ 90 ...	17	6	5
+b	NEW YORK ( AP ) — Bank of America is shelving plans to increase its dividend ...	17	11	5
+b	Fitch Lowers South Africa Credit-Rating Outlook to Negative	8	8	1
+b	Germany 's Yield Turns Negative as Notes Rally on Draghi Outlook	11	8	1
+t	Apple Just Released Its Cheapest iPhone Ever	7	7	0
+b	UPDATE 2-Coal , grain shipments boost Union Pacific profit	9	9	2
+e	CORRECTED-Biblical epic 'Noah ' tests director Aronofsky 's blockbuster chops	10	12	4
+e	FEATURE-'Dawn of Planet of Apes ' marks digital lib for actors	11	10	3
+b	UPDATE 2-Nissan aims to boost US sales and profit as it closes on Honda	14	10	1
+m	UPDATE 1-US teenagers smoke less , but texting while driving a concern -CDC	13	11	3
+b	Mitsubishi Offering to Buy About 10 % Alstom Stake , Nikkei Says	12	8	2
+t	From the 'little dodo ' to the flightless parrot : World 's 100 most unique and ...	17	2	7
+t	GM Recalls Another 218000 Cars Over Dashboard Fire Risk	9	9	0
+e	Kris Jenner 'calls police to deal with man who claims to have sex tape	14	2	1
+b	US STOCKS SNAPSHOT-Wall St ends higher ; S & P , Nasdaq off for the week	16	21	4
+t	Apple 's Cook Pursuing Beats Seen Presaging More Takeovers	9	8	1
+m	Malaysia Plane Crash Victims Included About 100 AIDS Conference Attendees ...	11	12	3
+b	UPDATE 5-Yahoo 's growth anemic as turnaround chugs along	9	7	2
+b	Economic Policy in a Post-Piketty World	6	5	1
+b	German bonds firm up as investors prepare for ECB to act	11	4	0
+e	Diane Sawyer Tells Her Viewers She 's Leaving 'World News '	11	9	3
+b	Bouygues board meets to approve improved SFR bid-sources	8	4	1
+t	Hacker Weev 's Chilling Conviction Is Overturned	7	6	1
+m	This Is What Happens When You Tell A Young Girl She 's Fat	13	12	1
+e	Kermit and Miss Piggy spoof Kim Kardashian and Kanye Vogue cover	11	7	0
+e	'The Hobbit : The Battle Of The Five Armies ' Teaser Trailer Has Arrived	14	12	3
+t	Comcast divestitures may be worth roughly $ 18 billion : source	11	1	2
+b	Krugman Warns ECB Panel World 's Central Bankers Have It Wrong	11	12	1
+e	Zac Efron Performs Dance To Jason Derulo 's 'Wiggle , ' And It 's Awesome	15	11	5
+t	Mark Zuckerberg ordered to appear in Iranian court over Facebook violating ...	12	4	3
+b	UPDATE 2-Apple supplier Cirrus to buy British chip maker Wolfson	10	10	1
+b	UPDATE 1-Euro zone private sector loans contract further in Feb -ECB	11	11	2
+e	Beyonce teams with Jennifer Garner and Jane Lynch in campaign to urge girls to ...	15	5	3
+b	Three million credit card numbers stolen from Michaels Stores after security breach	12	3	0
+t	UPDATE 2-US FCC looking into slow Internet download speeds	9	12	1
+b	Iraq conflict could put 4p a litre on petrol after price of a barrel of oil reaches nine ...	19	1	3
+b	Jessica Alba is retro chic for her morning coffee run	10	2	0
+b	Jobless Claims in US Decreased Last Week as Labor Market Heals	11	10	0
+e	North Korea Calls Seth Rogen-James Franco Film An 'Act Of War '	12	12	3
+t	Apple , Google Agree To Settle Smartphone Patent Litigation	9	8	1
+b	UPDATE 1-Alibaba rival JD.com to be valued at up to $ 24.6 bln in IPO	15	12	4
+t	Google deletes search results about millionaire banker and referee who lied as ...	13	1	3
+t	A Company You 've Never Heard Of Might Have A Bigger IPO Than Facebook	14	15	1
+e	Zendaya pulls out of Aaliyah Lifetime biopic days after furious family vow to stop ...	15	3	3
+e	US Supreme Court 's Alito ends recusal in Aereo TV case	11	8	1
+e	Mellie Grant Is The Unsung Antihero Of 'Scandal '	9	8	2
+b	CANADA STOCKS-TSX ends higher after Fed comments	7	16	1
+e	'Horrible Bosses 2 ' Trailer Shows A Desperate Trio Just Trying To Turn Up	14	12	2
+b	UPDATE 3-Volkswagen denies planning a bid for US Paccar	9	10	1
+e	Rolf Harris 's daughter Bindi 'smashed up artwork he had given her after finding ...	15	3	5
+b	PRECIOUS-Gold slips ahead of Fed on stronger dollar , fund outflows	11	10	2
+e	Paul Walker Memorable In Gritty 'Brick Mansions '	8	7	2
+e	'The Leftovers ' Review : A 'Lost ' Producer Goes To The Dark Side	14	11	5
+e	'Mad Men ' Finale Review : Dance Fever , Burgers And Space Travel	13	10	4
+b	Fed , with bond taper on autopilot , free to tackle big questions	13	1	2
+b	UPDATE 4-Pilgrim 's bid for Hillshire puts Pinnacle deal in peril	11	9	2
+b	UPDATE 2-BP profit jumps but warns of Russia sanctions impact	10	9	1
+b	Uber to Debut Car-Booking Services for Business Travelers	8	7	1
+e	Rupert Grint follows in the footsteps of Harry Potter co-star Daniel Radcliffe as he ...	15	6	4
+t	House of Cards Fails at Legislative Intrigue in Its Bid for More Handouts From ...	15	10	3
+b	Ukraine Sees Gazprom Charging 37 % More for Gas in Second Quarter	12	8	1
+e	36 Avicii Fans Hospitalized After Boston Concert	7	6	0
+e	UPDATE 1-'Divergent ' teen warriors defeat 'Muppets ' at box office	11	8	5
+e	Kim Kardashian and Kanye West 'ca n't get married because prenup is still being ...	15	4	5
+m	HAVANA ( AP ) — Cuban authorities are confirming the country 's first six cases of ...	17	9	6
+t	Amazon To Buy Twitch For About $ 1 Billion	9	7	1
+t	Sprint Chairman Vows 'Price War ' If T-Mobile Deal Allowed	10	10	3
+b	Microsoft CEO Nadella Pulls the Trigger on Long-Gestating Office Apps for iPad	12	12	1
+t	FTC says Snapchat deceived customers over 'disappearing ' messages	9	4	2
+m	Processed foods such as sausages or bacon found to greatly increase chance of ...	14	1	3
+b	CANADA STOCKS-TSX climbs as Fed reassures markets	7	16	1
+b	AbbVie Raises Outlook on Strong Performance Amid Shire Offer	9	9	0
+m	Immune Therapy 's Cancer Promise Creates Research Rush	8	7	1
+t	Luxottica shares up in early trade after Google Glass deal	10	3	0
+b	Asian Stocks Fall Most in 7 Weeks on Japanese Yen , China Economy	13	9	1
+b	Credit Suisse Clients Remain Secret as Bank to Help US ( 1 )	13	9	2
+b	UPDATE 4-Murdoch sets up sons to take over media empire	10	7	1
+e	Three people arrested outside Taylor Swift 's Rhode Island beach house for ...	13	5	4
+b	UPDATE 1-Data storage equipment maker EMC cuts profit forecast	9	10	1
+e	'Fame and career are two different things ' : Adrienne Bailon responds to ...	14	3	6
+e	Sounds like a wild night ! Miley Cyrus and friends get tattoo of her dead dog ...	17	3	4
+e	The Five Lessons of Good Friday	6	5	0
+b	US STOCKS-Wall St to open lower as China concerns mount	10	11	1
+e	New 'Maleficent ' Trailer Turns Angelina Jolie Into A Beautiful , Winged Beast	13	11	3
+e	Video shows a Crosslake , Minnesota wedding party ended up in lake as jetty ...	15	3	4
+e	Avril Lavigne , Asian Women Are Not Your Props	9	8	1
+b	BNP to Buy 81 % of UniCredit 's DAB Bank for 354 Million Euros	14	12	2
+b	Fitch Teleconf : Nigeria and Angola Rating Actions - 16 April ; 15:00 BST	14	10	4
+b	SolarCity buys solar panel maker to lower costs	8	2	0
+t	A blue planet through and through : Earth 's largest water reservoir is found ...	15	2	5
+e	Eminem reunites with mom Debbie Mathers in new video Headlights	10	4	0
+e	Robin Thicke 's New Album Is Reportedly Called 'Paula ' In Attempt To Win Back ...	16	13	6
+b	Alibaba First-Quarter Profit Triples Ahead of IPO	7	9	1
+m	LOOK : Tracing The Trail Of Ebola In Africa	9	11	1
+b	Suit Separates , Unite ! Men 's Wearhouse Finally Lands Jos . A . Bank	15	10	5
+t	NJ Assembly OKs Tesla electric car sales	7	6	0
+e	'Sherri Shepherd was condescending and I regret my rough sex scene ' : Duke ...	15	4	6
+t	The One Important Thing GM CEO Mary Barra Told Congress	10	13	0
+e	How I Met 'How I Met Your Mother '	9	8	2
+t	Toyota to sell fuel-cell vehicle by end-March 2015 in Japan	10	3	2
+e	UPDATE 1-NY Met Opera proposes federal mediators in bitter labor dispute	11	10	1
+e	L'Wren Scott 's sister Jan Shane claims designer was devastated she did n't have ...	15	5	6
+t	UPDATE 2-AT & T-DirecTV merger may hinge on NFL agreement	10	15	3
+b	Fannie Mae to pay Treasury $ 5.7 billion on quarterly profit	11	3	2
+b	US STOCKS-Dow , S & P 500 erase losses after ISM correction	12	14	3
+b	Buffett 's Search for Sure Thing Propels 76-Year Junk Food Quest	11	9	2
+e	The Stars Are Ready For Spring On This Week 's Best Dressed List	13	12	1
+b	UPDATE 2-JC Penney interfered with Macy 's deal with Martha Stewart-judge	11	12	3
+e	New couple ? Sofia Vergara 'dating hunky True Blood star Joe Manganiello ' ... six ...	16	7	9
+e	The Voice contestant Kristen Merlin goes silent mid-song after microphone fails ...	12	4	4
+b	UPDATE 1-Wearable camera maker GoPro 's IPO priced at $ 24/share - underwriter	13	12	5
+t	UPDATE 1-Nintendo to introduce console for emerging markets as early as 2015 ...	13	7	4
+e	The Mystery Of Tony 's Fate In 'The Sopranos ' Has Finally Been Revealed , Kind ...	17	13	7
+e	You 're not invited ( yes , that means you Lindsay Lohan ) : The A list stars snubbed ...	20	5	8
+e	'It 's the toughest thing I 've ever done ' : Ariana Grande talks about forgiving herself ...	18	4	8
+b	US Patent Office cancels trademarks of NFL 's Redskins	9	8	1
+b	US STOCKS-Wall St set for lower open as Wal-Mart weighs	10	12	2
+m	9 Ways To Walk More On National Walking Day	9	8	0
+e	Kylie Minogue is showered with kisses from Domenico Dolce	9	4	0
+b	UPDATE 2-Deutsche Bank opens door to new capital increase	9	8	1
+b	Job Openings in US Climbed in February to a Six-Year High ( 1 )	14	9	3
+t	Now iHackers are targeting the US as Australians told to change their iCloud ...	14	6	3
+e	Thailand 's Tourists Ask 'What Coup ? '	8	5	4
+e	Full trailer for Dawn Of The Planet Of The Apes shows Gary Oldman watching ...	15	10	3
+b	European Stocks Are Little Changed Amid Deals Action	8	8	0
+e	Our New Favorite Song Is Jessie J , Ariana Grande & Nicki Minaj 's 'Bang Bang '	17	13	5
+b	Insurers Say Most Obamacare Customers Paid First Premiums	8	8	0
+b	UPDATE 4-China denies US warning of undervalued currency	8	9	1
+e	Kim Kardashian Just Realized Racism Still Exists After Having A Baby	11	11	0
+b	Greek central bank chief says wants second term	8	1	0
+b	China Stocks Rise Most This Week as Trade Unexpectedly Grows	10	9	0
+b	Road safety firm Mobileye IPO priced at $ 25 per share	11	5	1
+b	UPDATE 3-McDonald 's profit falls , US diners not `` lovin ' it ''	14	10	6
+b	Fitch Affirms Caffil 's OF at 'AA+ ' on Revised Breakeven Overcollateralisation	12	10	4
+b	France says BNP Paribas ' $ 10 bln US fine `` unreasonable ''	13	7	4
+e	'Orphan Black ' Review : Clones Return With Lots Of Energy , New Friends And ...	16	12	7
+e	Justin Bieber 'takes Selena Gomez 's frenemy Kendall Jenner to sushi dinner	12	6	2
+b	UPDATE 4-Ford to name Fields as CEO soon , replacing Mulally -source	12	12	3
+b	Draghi says ECB stands ready to adjust policy further	9	4	0
+b	Obamacare hits milestone , but detours ahead for health law	10	1	1
+b	Barclays axes 19000 jobs including 7000 investment bankers	8	1	0
+b	UPDATE 2-US judge declines to order 'park it now ' notices for GM cars	14	10	3
+b	Fitch Affirms UK at 'AA+ ' ; Outlook Stable	9	8	4
+b	China is trying to build its own ISLAND in our waters , claim the Philippines as ...	17	8	4
+b	Taiwan 's yuan deposits inch up to 290 bln yuan as of May	13	2	1
+b	Draghi Sifts Evidence on Slack as ECB Cements Low-Rate Policy	10	11	1
+e	The 'OITNB ' Cast Is Having The Most Fun At The Emmys Red Carpet	14	17	2
+b	RPT-Mt . Gox files for US bankruptcy protection	8	7	2
+t	Apple may be forced to refund $ 400M to consumers in digital book price fixing ...	16	2	4
+m	'This is unacceptable ' : Michelle Obama defends healthy school lunches from ...	13	3	6
+b	Pound Gains Most in Six Weeks Versus Euro on Weale Rate Comments	12	10	0
+b	France meets Alstom bidders with pledge to protect jobs	9	2	0
+b	Google Q1 Internet revenue grows 19 percent	7	3	0
+b	US STOCKS-Wall St edges up on Intel but posts weekly loss	11	11	1
+e	Mega Upload founder Kim Dotcom sued by six of the biggest film studios ...	14	4	3
+e	Terry Richardson : ' I 'm Okay With Myself About Everything '	12	8	4
+b	BAT Shares Gain Amid Speculation of Reynolds Bid for Lorillard	10	10	0
+b	Draghi as Committed as a Central Banker Gets , as Economists Await ECB ...	14	10	4
+e	Of Course Rihanna And Eminem Did The Ice Bucket Challenge With An Audience	13	13	0
+b	TREASURIES-Prices perk up ahead of debt sales , Yellen testimony	10	12	2
+e	Netflix Cracks US Cable Market in Deals With 3 Providers ( 2 )	13	9	2
+b	US STOCKS-Wall St gains on earnings ; S & P up for 6th straight day	15	12	3
+e	Watch Denzel Washington In The First Trailer For 'The Equalizer '	11	10	2
+b	Rescuers close to 3 trapped Honduran miners , 8 still missing	11	2	1
+b	Most Emerging-Market Stocks Advance Before US Payroll Report	8	10	1
+e	12 Times The Women Of 'Game Of Thrones ' Were Super Fierce	12	10	2
+b	Nvidia 's third-quarter revenue outlook exceeds expectations	7	1	2
+m	Stressed at work ? Meditating really does work - and you 'll see a difference in just ...	18	2	6
+b	Let the Waters Flow -- As Long as It Is Clean	11	8	2
+b	FDA Bans Some Imports From India 's Sun Pharma ; Shares Plunge ( 1 )	15	12	4
+b	COLUMN-Energy scare good for oil stocks in the short term	10	7	1
+b	US STOCKS-Wall Street set to dip at open on growth concerns	11	10	1
+b	UPDATE 2-Allergan rejects Valeant Pharma 's 'cut and slash ' takeover	11	9	4
+e	Zac Efron and rumored girlfriend Halston Sage cuddle up at Neighbors premiere	12	5	0
+b	Wheat Declines to 14-Week Low on Global Supply Outlook	9	7	1
+e	Chris Martin partied with brunettes before split with Gwyneth Paltrow	10	4	0
+m	UPDATE 1-US CDC says finds smallpox vials from 1950s in FDA storage room	13	14	1
+e	Naomi Watts runs errands hours before her glamorous turn at Met Gala	12	4	0
+t	Google set to translate the real world : firm buy app that can translate anything ...	16	1	4
+e	Fargo TV series debuts with Billy Bob Thornton and Martin Freeman	11	8	0
+e	Christina Hendricks shares Mad Men teaser on The Tonight Show Starring ...	12	8	3
+b	Twitter flying high : Stock soars as firm beats estimates and reveals it now has ...	16	2	4
+b	BNP to Pay Almost $ 9 Billion to End US Sanctions Probe	12	11	1
+b	GE Profit Matches Estimates as Synchrony IPO Set for July	10	11	0
+b	Yellen comments boost US stocks ; gold falls	8	3	1
+t	No Butts About It , Some Pinterest Users Have Been Hacked	11	10	1
+m	The New Dietary Fat Study : What You Will Hear and What It Really Means	15	13	1
+m	New Noninvasive Colorectal Cancer Screening Test Is Effective In Large Trial	11	11	0
+b	FOREX-Dollar bulls in charge ahead of GDP and Fed tests	10	10	1
+b	Fed Employees Owe Tax at Twice Rate of Government Workers	10	8	0
+m	Omsignal smart shirt that can monitor your workout	8	1	0
+b	GLOBAL MARKETS-Stocks , bonds edge up after Draghi , data eyed	11	15	3
+e	Nothing spec-tacular ! Rihanna wears plain outfit and glasses ... as she is ...	14	2	8
+t	Facebook Developing Its Own Snapchat With 'Slingshot ' : Report	10	8	3
+e	Dave Brockie Dead : GWAR Frontman Dies At 50	9	10	1
+t	Rubik 's Cube Google Doodle Will Drive Everyone Nuts Today	10	9	1
+b	UPDATE 1-California 's proposed 2015 Obamacare premiums to rise 4 pct in 2015	13	8	2
+e	'This Is Where I Leave You ' Trailer Teases All The Family Dysfunction	13	12	2
+b	Puerto Rico Electric Authority Pushes Off Bank Loans to Aug. 14	11	9	1
+b	Fischer confirmed to be No . 2 at Fed	9	3	1
+e	BET Awards Red Carpet 2014 : Gabrielle Union , Ashanti & More Step Out In ...	16	13	6
+b	UPDATE 1-Hungary approves loan measure estimated to cost banks $ 2.6- $ 3.9 ...	14	7	9
+b	UPDATE 1-Vietnam vows tough measures to avert anti-China unrest	9	8	2
+e	George Clooney 's fiancée Amal Alamuddin is 'smart , ' and 'discreet '	13	4	6
+e	Amazon 's Deal With HBO Leapfrogs Streaming Rivals	8	9	1
+b	EBay 's Donahoe Dined With Icahn to Spur Thaw Before Deal	11	10	1
+e	Kanye West steps out with fiance Kim Kardashian for pre-wedding work-out in ...	13	4	5
+b	Shire Says Holders Deserve Higher as AbbVie Eyes Offer	9	9	0
+e	Taylor Swift : Autographs Are Obsolete Because Of Selfies	9	8	1
+b	Devon to sell oil and gas assets to Linn Energy for $ 2.3 bln	14	3	2
+b	Shire Rejecting AbbVie 's Bid Puts It in Play : Real M & A	14	11	3
+b	Illinois 'Microbeads ' Ban Came With Industry Cooperation	8	7	2
+t	NASA 's LADEE Moon-Orbiting Space Probe Smashes Into Lunar Surface	10	17	2
+b	UPDATE 3-Sikorsky , Lockheed win $ 1.28 bln US helicopter deal	11	10	4
+b	LyondellBasell says wo n't buy anymore disputed crude from Iraq	10	3	1
+b	Geithner in Book Says US Considered Nationalizing Banks ( 1 )	11	8	2
+e	The 'Girl Meets World ' Trailer Is Here , And It 's Everything We Hoped It Would Be ...	19	15	7
+m	Edwards Valve Outperforms Medtronic 's in First Comparison Study	9	7	1
+e	'Goonies 2 ' Is Happening According To Richard Donner	9	7	2
+b	UPDATE 1-US official warns of lawsuit as BofA mortgage talks stall	11	10	1
+b	Is Valeant 's Buy-to-Grow Strategy Sustainable ? : Real M & A	12	9	6
+b	CORRECTED-Alibaba invests $ 215 million in messaging app Tango	9	11	2
+e	Ben Savage Reveals Which 'Boy Meets World ' Characters Will Be Back For 'Girl ...	15	13	6
+b	PRECIOUS-Gold slips ; platinum gains as South African strike ends	10	11	2
+b	US consumer sentiment falls in March	6	3	0
+t	Illinois , Florida join Connecticut in eBay probe	8	4	1
+b	A More Worldly Southwest Flies Abroad for the First Time	10	8	0
+b	PRECIOUS-Platinum gains on supply worries ; gold treads water below $ 1300	12	9	3
+e	Pip Andersen And Crystal Clarke Join 'Star Wars : Episode VII ' Cast	13	13	3
+e	'Father Of GI Joe ' Donald Levine Dies At 86	10	9	2
+e	Keeping Up With Kris ! Khloe Kardashian displays toned pins in her mother 's ...	15	6	5
+t	UPDATE 1-SoftBank CEO : sees new movement , hopes for more discussion after ...	14	11	6
+e	Fargo sees Martin Freeman star with Billy Thornton in TV remake	11	7	0
+e	North Korea Regime Already Criticizing 'The Interview '	8	7	2
+t	You Can Buy Google Glass Today ! A Few Things To Consider .	13	11	2
+t	Deal Done , Microsoft and Nokia Have to Do Together What They Could n't ...	15	10	5
+b	Drone Almost Struck Airliner Over Florida in March , FAA Says ( 1 )	14	11	3
+b	CORRECTED-As Buffett praises his BNSF railroad , customers rail against delays	11	15	2
+e	First Nighter : Franco , O'Dowd , Meester Distinguish Steinbeck 's 'Of Mice and Men '	16	11	7
+b	RPT-In the driving seat : China 's yuppies are new market force for global ...	15	5	6
+m	How fear can be 'programmed ' into infants by the smell their parents give off ...	16	1	5
+b	US Stocks Rise on Economy Optimism as Manufacturing Data Gains	10	9	0
+t	RPT-China regulator in anti-monopoly probe of Microsoft	7	5	2
+b	UPDATE 1-Fannie Mae to pay US Treasury $ 5.7 billion on quarterly profit	13	11	3
+b	Wall Street opens up on earnings , data mixed	9	2	1
+e	Kimye And The # WorldsMostTalkedAbout Cover Of Vogue	8	10	1
+b	UPDATE 1-UniCredit Bank Austria in sale talks on Ukraine unit	10	11	1
+b	Citigroup may pay $ 7 bln to resolve US mortgage probes -source	12	3	2
+b	BES to launch capital increase , seek sale of non-strategic assets	11	3	2
+b	Negative rates may not make euro zone banks lend more , BIS chief says	14	4	1
+b	NORDIC STOCKS - Factors to watch on July 7	9	14	1
+b	REFILE-China July official PMI rises to 51.7 from 51 in June	11	12	2
+e	RACHEL JOHNSON : Like all control freaks , Gwynnie is just a pain in the gluten ...	17	15	5
+e	Death of comics ' Archie meant to be 'inspirational ' : publisher	12	2	4
+b	China Money Rate Touches One-Month High After Cash Drained	9	10	1
+e	'And they lived happily ever after ' : Khloe Kardashian cuts a lonely figure in ...	16	3	6
+m	Fathers ' Brains Change for Role as Primary Caregiver	9	6	1
+b	Intesa posts 4.55 bln euro loss in 2013 on writedowns	10	1	1
+b	Walmart Had A Pretty Bad First Quarter , Thanks To Awful Weather	12	11	1
+b	Carlyle Hires JPMorgan 's Cavanagh in Push to Grow Beyond Buyouts	11	10	1
+b	EBay Forecasts Sales Short of Estimates After Data Breach	9	9	0
+t	US web companies press demands for net neutrality with FCC	10	5	0
+b	EPA Takes First Step Toward Regulating Fracking Chemicals ( 1 )	11	10	2
+b	US STOCKS-Wall St near flat as deal news offsets housing data	11	10	1
+e	'Once Upon A Time ' Casts Georgina Haig As Queen Elsa From 'Frozen '	14	12	4
+m	Medicare Wo n't Let Massage Therapists Prescribe Drugs Any More	10	9	1
+m	REFILE-AstraZeneca fights to regain cancer market prominence	7	8	1
+e	Karrueche Tran slammed by Beyoncé fans for making fun of daughter Blue Ivy 's ...	15	5	4
+b	Euro-Area Manufacturing Slows on France as Spain Gains	8	7	1
+b	British American Tobacco results hurt by forex	7	3	0
+b	CORRECTED-UPDATE 1-ATK to merge with Orbital after divesting sports gun unit	11	19	2
+e	Real Chimps Watch 'Dawn Of The Planet Of The Apes , ' Revolution Begins	14	12	3
+e	Beyonce breaks down in front of fans as her smash Mrs Carter tour finally comes ...	16	3	3
+e	US Broadcast Television Ratings for the Week Ended May 18	10	8	0
+t	Tesla CEO says electric carmaker plans European plant : report	10	5	1
+b	Etihad Airways unveils new luxury hotel-style cabins	7	2	1
+b	UPDATE 2-US appeals court upholds Fed 's debit card 'swipe fee ' limits	13	9	4
+b	Twitter 's slowing growth prompts target price cuts	8	1	1
+b	BofA Reaches $ 950 Million Deal on FGIC-Backed Mortgage Bonds ( 2 )	13	12	4
+e	BLOGS OF THE DAY : Orlando wants his son to live his dream	13	14	1
+e	Transformers : Age of Extinction reviewed . | Paramount	9	4	3
+t	Quakes strike after Iceland volcano eruption , red alert for aviation sector	12	2	1
+t	Apple close to buying Beats for $ 3.2 billion : source	11	2	3
+b	Caterpillar 's Swiss unit dodged $ 2.4 bln of US taxes -Senate panel	13	5	4
+t	You Have Avoided The Heartbleed Bug , Now What ?	10	8	2
+e	Guardians Of The Galaxy 's new trailer shows Chris Pratt 's comedic timing and ...	15	6	5
+b	PRECIOUS-Gold near 6-mth high as Ukraine , China prompt safe-haven bids	11	11	4
+b	Yahoo 's 1Q shows modest gains in ad business	9	2	1
+b	Four Years After the Blowout ... Has Anything Changed ?	10	7	4
+t	Microsoft Rushes to Fix Security Flaw in Explorer Browser ( 1 )	12	7	2
+b	COMMODITIES-Oil surges on Iraq ; multi-month lows in many markets	10	13	3
+b	China Tests American Resolve : More Trouble in the South China Sea	12	9	1
+e	CRAIG BROWN : Comedy ? It 's just flogging a dead parrot	12	12	3
+e	Kim Kardashian shares photo of moment Vogue 's Anna Wintour met her and ...	14	5	4
+t	Tesla CEO says company can make more than 60000 vehicles in 2015	12	4	0
+b	FOREX-Dollar gains on upbeat US private sector jobs data	9	8	1
+b	Burger King In Talks To Buy Canada 's Tim Hortons To Dodge U.S. Taxes	14	14	3
+t	UPDATE 1-Apple replaces iPad 2 with iPad 4 , launches cheaper iPhone 5C	13	11	2
+b	Juniper Networks ' quarterly revenue rises 10 pct	8	2	1
+b	US STOCKS-Wall St cuts losses as diplomacy ramps up in Ukraine	11	11	1
+b	Time Warner 1st-qtr results beat estimates	6	2	1
+e	Russell Crowe sons impressed he 's worked with Noah co-star Emma Watson	12	5	2
+t	AT & T Hacker 'Weev ' Has Conviction Tossed Over Trial Locale ( 2 )	15	11	5
+b	Emerging Stocks Decline Fifth Day on Fed Outlook	8	7	0
+b	Kathleen Sebelius Talks With HuffPost Community On Obamacare Deadline Day	10	11	0
+b	Rolls Royce sells energy gas turbine business to Siemens	9	3	0
+b	Dollar Drops to One-Month Low on Fed Rates Message ; Krone Slumps	12	10	2
+b	ANALYSIS-Obama 's Asia pivot tested by China 's bold maritime claims	11	11	3
+b	Japanese 10-Year Bonds Trade in Afternoon After BOJ Holds Policy	10	11	1
+t	Elephants really are intelligent : Creatures can guess age and even ethnicity by ...	14	2	4
+m	Diabetes Complication Rate Drops Even as US Cases Keep Rising	10	10	0
+e	EXCLUSIVE : The LAST picture of model Katie Cleary 's husband shows him in ...	15	16	5
+b	DirecTV to US lawmakers on AT & T deal : broadband 'changing everything '	14	8	4
+b	ECB 's Draghi says critics should not threaten bank 's independence	11	4	2
+e	Miss USA Nia Sanchez Stands By 'Self Defense ' And 'Martial Arts ' As A Way To ...	18	17	7
+b	Delta expects first quarter profit despite hit from winter storms	10	1	0
+b	Hong Kong Stocks Fall Most in Three Months	8	7	0
+b	European May car sales up 4.3 pct as volume brands beat premiums	12	2	1
+b	S & P 500 Rises on Yellen as Europe Gains , Treasuries Fall	13	8	2
+b	Walmart Wants To Buy Your Old Video Games	8	8	0
+b	UK Stocks Rise to Two-Month High as Barclays Gains on Job Cuts	12	11	1
+b	UPDATE 2-France says mooted BNP Paribas ' $ 10 bln US fine `` unreasonable ''	15	13	5
+e	'Game Of Thrones ' Season 4 , Episode 1 Recap : 'Two Swords '	14	8	6
+b	BMW US Plant to Be Carmaker 's Biggest After Capacity Expansion	11	12	1
+b	ECB bets push Spanish , Italian , Portuguese yields to multi-year lows	12	6	3
+b	UPDATE 1-US tests enhanced Aegis system , fires SM-3 missile onshore	11	11	3
+t	Google 'right to be forgotten ' requests include actor who had affair with teen	14	1	2
+b	Philadelphia Commuter-Rail Strike Halted by Obama Order	7	7	1
+b	Amazon vs. Hachette : A Custody Battle for the Future of Books ?	13	7	3
+t	SoftBank 's Son Pitches 'Alternative ' for Faster US Broadband	10	9	3
+e	Taylor Swift obtains three-year restraining order against stalker	8	2	1
+m	Deaths Fell Under Massachusetts Health Overhaul , Researchers Say	9	8	1
+t	Do n't Undervalue Importance of Co-benefits	6	4	2
+b	China 's Soybean Imports Jump in April as Demand Recovers	10	7	1
+m	California bill to require warning labels on sugary drinks dies	10	1	0
+e	Living the dream ! Rita Ora dances around in red kaftan as she spends time on ...	17	3	4
+e	Lessons from My Mother -- As a Mixtape	8	5	2
+t	Commercial US cargo ship reaches space station	7	3	0
+b	Delaware messes with Texas , sparks fight over mega-bankruptcy	9	2	2
+b	When 's the Obamacare Deadline ? Good Question	8	5	2
+b	UPDATE 3-IMF wraps up talks on aid for Ukraine -source	10	10	2
+b	Twitter 's Costolo Guts Executive Suite With Hire of CFO	10	10	1
+m	Ebola Spreads to Sierra Leone as Deadly Virus Outbreak Resurges	10	8	0
+b	RPT-BOJ 's Kuroda says positive cycle driving Japan economy	9	8	2
+e	HBO 's Amazon Deal Without 'Thrones ' Shows Cable Loyalty	10	10	3
+b	Nikkei drops to 2-week low as Takeda drags down pharma sector	11	2	1
+b	UPDATE 1-India 's top court again rejects Sahara chief 's bail plea	12	8	3
+e	'He all but had the courtroom in a riot ! ' : Former TV judge Joe Brown ARRESTED ...	19	14	7
+b	China blames Vietnam for sea collisions , but calls for talks	11	2	1
+b	Dollar starts new quarter on the backfoot , Aussie eyes	10	2	1
+m	Owen and Emmett Ezell , Once-Conjoined Twins , Set To Leave Texas Hospital	13	11	3
+b	RPT-Fitch Affirms CoFF 's Bonds at 'AA+ ' Following Implementation of Updated ...	13	14	8
+b	French and Benelux stocks-Factors to watch on March 13	9	4	1
+b	FOREX-Dollar mostly flat ahead of key US economic data , Fed meeting	12	9	2
+e	Karrueche Tran 'dumped Chris Brown after finding texts from women '	11	4	2
+b	7 Reasons Consumers Wo n't Love the $ 7 Billion Citigroup Deal	12	7	2
+b	Wheat Poised for Bear Market on Signs of Rising Global Reserves	11	8	0
+e	Zac Efron on how revealing his issues with drugs and alcohol is 'weight off ' his ...	17	2	5
+m	Being bilingual may keep brain sharp in old age : Learning extra languages can ...	15	2	4
+b	UPDATE 3-Amazon 's revenue increases even as spending rises	9	7	2
+m	Scientists discover that humans have 21 different facial expressions	9	1	0
+e	# ContainColbert : Why Satire and Twitter Campaigns Can not Mix	11	8	2
+b	US Trade-Case Win Against China Contributes to Tensions	8	9	1
+b	US STOCKS-S & P 500 hits record on mergers , small-cap rebound	12	10	4
+e	Did Jesus Die Singing ?	5	4	1
+b	US official warns of lawsuit as BofA mortgage talks stall	10	4	0
+e	Julia Louis-Dreyfus Has Sex With A Clown In Hilarious ( Yet Disturbing ) GQ Shoot	15	15	3
+b	GRAINS-Wheat holds near 3-1/2 month low on USDA forecast	9	11	3
+b	US STOCKS-Wall St retreats on Iraq worries as data boost fades	11	11	1
+b	China 's May Non-Manufacturing PMI Rises to 55.5	8	8	3
+b	Mario Draghi Needs to Be Super Again to Prevent Deflation	10	8	0
+b	Macquarie Fund Buys Terminals Business in American Expansion	8	7	0
+e	Jennifer Esposito blasts ex Bradley Cooper in new book	9	4	0
+e	Kanye West grins while zip-lining with Kim Kardashian as more vintage vacation ...	13	4	4
+e	Kendall Jenner brushes off Billboards flub as she and Khloe Kardashian jet off to ...	15	5	3
+b	German ZEW Investor Confidence Drops for Seventh Month	8	9	0
+b	Fed Seen Adopting Qualitative Rate Guidance as Job Market Gains	10	9	0
+m	PetSmart Joins Petco , Stops Selling Pet Treats From China Amid FDA Concerns	13	15	1
+e	Justin Theroux films The Leftovers amid reports he and Jennifer Aniston 'plan to ...	14	6	4
+e	Kim Kardashian Is A Blonde Again ( UPDATE )	9	12	2
+b	Fed 's George says can not say when rates should rise	11	2	1
+m	Photos Of Frostie The Baby Goat Frolicking In His Tiny Wheelchair Are So Cute ...	15	14	3
+b	IMF predicts growth of 2.9 % in a vindication for George Osborne	12	5	2
+e	ESPYS : The ESPY Awards Embodies the Essence of Commitment and Awareness	12	15	1
+e	Kim Kardashian and Kanye West hit shops in matching camel-coloured outfits	11	4	1
+b	RPT-UPDATE 2-China official PMI hits 5-month high in May , boding well for Q2	14	15	4
+b	Caesars Turnaround Odds Hobbled by Default-Swap Volumes	7	7	1
+e	'Game Of Thrones ' Sex Chart ( INFOGRAPHIC )	9	16	4
+t	World Health Organisation warns Delhi 's dirty air is at 'critical ' level	13	4	3
+b	UPDATE 2-Eleven miners trapped underground in Honduran gold mine	9	8	1
+b	RPT-Fitch affirms Aneka Gas Industri at ' A- ( idn ) ' ; outlook stable	15	8	7
+e	John Leguizamo Explains Why People Need To Reach Out To Latinos ( VIDEO )	14	16	2
+b	UPDATE 3-Coach 's North American decline deepens	7	9	2
+m	UPDATE 2-Nature journal retracts stem cell paper citing `` critical errors ''	12	7	3
+b	Flipkart acquires Myntra , to invest $ 100 mln in fashion business	12	2	2
+e	Sara Gilbert and singer fiancée Linda Perry tie the knot in secret ceremony	13	4	0
+e	PLATELL 'S PEOPLE : My old friend Rolf groomed me too	11	16	2
+b	UPDATE 3-Intel 's quarterly net beats Street , CEO talks up tablets	12	11	3
+b	Fairfax CEO Watsa Probed by Regulator in Trading Review	9	9	0
+t	What is the mystery light on Mars ? Distant 'glow ' seen in Curiosity rover 's latest ...	18	4	7
+e	Tyler , The Creator 's SXSW Show Sparks Riot	9	10	2
+b	Draghi says ECB ready to adjust policy if inflation drops further	11	4	0
+e	As I Lay Dying 's Timothy Lambesis Sentenced To 6 Years In Prison For Murder ...	16	13	4
+b	US goes into battle against deadly orange disease	8	2	0
+e	Khloe Kardashian spends a relaxed 30th birthday in tracksuit with boyfriend ...	12	2	3
+b	UPDATE 1-Announcement in bitcoin sale seen later today-US Marshals Service	10	11	2
+b	Reforming Puerto Rico 's public corporations key -New York Fed	10	6	2
+e	Kaley Cuoco and her Big Bang Theory co-stars holding out for huge pay raises ...	15	5	4
+t	There is no meaningful difference between Tea Party and `` establishment ...	12	3	4
+b	UPDATE 1-France pushes for concessions as Alstom bidding enters crucial week	11	8	1
+b	Fed 's Fisher lauds study as call for action on too-big banks	12	2	2
+e	Robin Williams preps long-awaited sequel to Mrs. Doubtfire , in which he starred ...	14	4	6
+b	Gold Trades Near Four-Month Low Before ECB Decision , US Data	11	14	2
+e	Amazon launches streaming music service for Prime members to take on Spotify ...	13	3	3
+b	UPDATE 2-Chipotle raising prices as steak , avocados , cheese costs rise	12	7	3
+b	Social Security halts controversial tax program	6	2	0
+b	UPDATE 5-US allows condensate oil exports , after light refining	10	8	2
+e	How Liza Minnelli 's Rep Reacted To Shia LaBeouf 's 'Cabaret ' Arrest	13	11	4
+t	General Motors grapples with safety crisis	6	2	0
+t	UPDATE 3-Automakers report strong uptick in May US sales	9	10	1
+b	FOREX-Dollar declines as euro rides out inflation dip	8	6	1
+b	FOREX-Dollar adds to monthly gain on strong US labor market data	11	8	1
+b	UPDATE 1-White House says Obamacare enrollment tops 6 million as deadline ...	12	9	4
+b	Medtronic nears $ 45 billion-plus deal for Covidien - sources	10	2	3
+e	Ruby Dee Dead : Legendary Actress And Civil Rights Activist Dies At 91	13	11	1
+e	Did Jesus Die Singing ?	5	4	1
+b	RPT-UPDATE 1-Cash drop in the euro zone adds to impetus for ECB action	13	13	2
+t	Your Facebook News Feed Is About To Get A Lot Less Annoying	12	12	0
+b	Ukraine faces painful slog to economic recovery	7	1	0
+t	Ca n't afford Google Glass ? These smart specs are a TENTH of the price : Frames ...	18	10	6
+t	UPDATE 2-US court voids man 's conviction for hacking celebrities ' iPads	12	9	3
+t	Global warming computer models confounded as Antarctic sea ice hits new ...	12	2	3
+e	'Eric has given me my mojo back ' : Simon Cowell admits he 'struggled with ...	16	3	7
+e	AC/DC Retirement Rumors Swirl Around Malcolm Young 's Health	9	11	2
+m	Gay Dads ' Brain Activity Pattern Resembles Both New Mothers And Fathers ...	13	11	4
+t	Netflix Takes Net Neutrality Fight Straight To The Top	9	9	0
+m	Corinna Schumacher pictured smiling during first public appearance since her ...	11	2	3
+e	' I really shut down ' : Miley Cyrus opens up about devastating loss of beloved dog ...	18	3	6
+b	Businesses fear ripple effects from `` cosmetic '' Russian sanctions	10	2	2
+b	Lafarge , Holcim agree terms of merger proposal -source	9	2	2
+b	GLOBAL MARKETS-Euro buoyant as European Central Bank hold rates	9	17	1
+b	Supreme Court Justices Limit Existing EPA Global Warming Rules	9	11	0
+t	UPDATE 2-Apple , Google settle smartphone patent litigation	8	8	2
+t	Aston Martin Unveils Sub- $ 100000 Edition for North America	10	7	2
+b	Actually , Minority Workers Are Everywhere In Silicon Valley -- They 're Just Not ...	15	11	7
+t	Nintendo Says There 's Nothing It Can Do About Unreleased Game 's LGBT ...	14	14	5
+b	China 's CICC Said to Invite Investment Banks for Hong Kong IPO	12	14	1
+e	Kim Kardashian and Kanye West 's romance in pictures	9	4	1
+b	EBay Settles Icahn Proxy Fight , Adds Independent Director ( 3 )	12	9	3
+b	Switzerland May Adopt A $ 25 Minimum Wage	8	6	1
+e	Oscar-nominee Melissa McCarthy goes sans make-up and with her sleek new ...	12	4	5
+b	UPDATE 1-Britain says may use public interest test in Pfizer bid for AstraZeneca	13	10	1
+b	Canada Jobless Rate Falls to 7 % as Labor Market Shrinks	11	7	1
+b	Nikkei 225 Futures Extend Losses After BOJ Decision ( Correct )	11	10	2
+b	PRESS DIGEST- British Business - May 13	7	14	2
+b	Deals of the day- Mergers and acquisitions	7	2	1
+e	Kris Jenner 'taking Rob Kardashian to fat camp '	9	4	2
+m	24 States Pressure Walmart , Walgreens To Stop Selling Cigarettes	10	8	1
+b	UPDATE 3-Alibaba 's growth accelerates , US IPO filing expected next week	12	12	3
+t	10 Things to Know for Thursday - 26 June 2014	10	4	1
+b	Tesla Results Seen Crimped on Car Deliveries , Credit Sales ( 1 )	13	8	3
+e	'She was n't going to allow a Kardashian to socially climb her ' .... real reason ...	17	2	10
+t	Could the patent wars soon be over ? Apple and Google settle court battle and ...	16	3	4
+b	Canadian Currency Falls as Employment Trails Forecasts	7	6	0
+e	Kristen Bell Pregnant With Her Second Child	7	7	0
+t	How to Remember All the Passwords You 're Resetting	9	6	1
+t	OkCupid admits setting users up with 'awful ' matches , hiding photos and ...	14	2	6
+m	Weight loss surgery helps many reverse type 2 diabetes : study	11	1	1
+e	Trace Adkins ' wife Rhonda files for divorce after 17 years of marriage	13	3	1
+t	UPDATE 1-NHTSA chief : GM did not share critical information with US agency	13	15	2
+b	BNP Paribas nears up to $ 9 bln settlement with US authorities : source	14	6	2
+e	Do These Five Things and You Are Jay-Bey	8	8	1
+t	New Jersey Assemply Approves Bill to Allow Tesla Sales	9	8	0
+e	Production on `` Fast & Furious 7 '' recently resumed after it was suspended ...	15	3	6
+b	US STOCKS-Wall St flat at record levels , valuations seen as reasonable	12	10	2
+b	UPDATE 1-Medtronic 's Covidien deal raises bar for rivals to merge	11	8	2
+b	Draghi Warns Stronger Euro Would Compel ECB to Ramp Up Stimulus	11	12	0
+t	UPDATE 1-China bans use of Microsoft 's Windows 8 on gov't computers	12	9	3
+b	PRECIOUS-Gold falls on interest rate fears ; palladium near 13-yr high	11	9	3
+m	Could Cannabis Actually Prevent Childhood Seizures ?	7	6	1
+t	BlackBerry Wins Court Order Barring Sales by Seacrest 's Typo	10	9	1
+b	US announces funding to fight citrus greening disease	8	2	0
+b	The Supreme Court 's Latest Greenhouse-gas Ruling Is a 97 Percent Victory for ...	14	9	5
+e	A perfect match ! Khloe Kardashian and French Montana both step out in I Heart ...	16	7	4
+b	FOREX-Dollar up vs yen on Japan stock picture , dips vs euro on Fed view	15	8	2
+e	Kim Kardashian 's pal Rachel Roy 'publicly argued with Solange ' before singer ...	14	5	6
+e	Kate Winslet leaves little Bear at home as she makes first post-baby public ...	14	3	4
+b	Hong Kong Votes , Beijing Glowers	6	5	1
+t	AMD Unveils ARM-Based Server Chips to Go On Sale This Year ( 1 )	14	15	3
+b	Deutsche Bank sets June 4 to price equity issue - slides	11	3	1
+m	Women who give birth after the age of 33 live longer : Remaining fertile later in ...	17	2	4
+b	Raiffeisen Bank Int ' l expects profit in Romania in 2014	11	4	1
+b	Higher Coffee Prices Kick in at the Supermarket	8	5	0
+e	Lost Andy Warhol artworks discovered on 80s floppy disks	9	3	0
+b	CANADA STOCKS-Futures indicate lower open , GDP misses forecasts	9	16	2
+e	She 's not sulking ! Zendaya makes a fashion statement at the BET Awards ...	15	6	5
+e	Robert De Niro Crashes Random World Cup Viewing Party	9	9	0
+t	Lyrid Meteor Shower 2014 To Peak On Earth Day ( LIVESTREAM VIDEO )	13	23	2
+b	Will New Satellite Data Help Locate Flight 370 ?	9	7	1
+b	Berkshire Too Rich for Buffett Is Sign Bargains Are Gone	10	9	0
+t	Sony Forms China PlayStation Venture in Microsoft Challenge	8	8	0
+b	China 's Lanzhou Warns Drinking Water Contains Dangerous Levels Of Benzene	11	10	1
+b	Strike forces Philly commuters to find new ride	8	2	0
+e	Kim Kardashian channels Marie Antoinette at her bachelorette party	9	4	0
+b	GRAINS-US soy leads corn lower as supply concerns ease ; wheat firms	12	8	2
+b	Better stick to salads ! Price of meat , fish and eggs rockets to an all time high	18	2	2
+b	Ryanair scraps bag check-in fees for business travellers	8	1	1
+b	HIGHLIGHTS-Fiat Chrysler 's five-year plan	5	12	3
+b	Dollar falls versus yen on renewed geopolitical concerns	8	1	0
+e	Maya Angelou Dead : Award-Winning Poet , Author And Activist Dies At 86	13	11	3
+e	Designing Women star Meshach Taylor dies aged 67 after battle with cancer	12	4	0
+t	Reality : Is This Thing On ?	7	5	2
+e	Beverly Hills Hotel Boycotted Over Brunei 's Sharia Penal Code	10	9	1
+b	Ryanair Adds Flexi-Fare in Push for Corporate Customers	8	7	1
+e	'Game Of Thrones ' Actress Maisie Williams Says Arya Stark Has New Priorities In ...	15	13	5
+b	UPDATE 2- '' Candy Crush '' maker King scores $ 7.1 bln valuation in IPO	15	12	5
+b	Lithuania Is Ready to Adopt the Euro in 2015 , EU Says	12	8	1
+b	AT & T Tells Congress DirecTV Takeover Means Lower Prices	10	12	1
+t	Facebook Adjusts Its Privacy Controls—Again	5	6	0
+t	We Saved Antarctica ... Or Did We ?	8	6	4
+b	Alibaba Founders to Keep Control With Partnership Alternative	8	7	0
+b	Medtronic Said in Talks to Acquire Device-Maker Covidien	8	7	1
+b	Microsoft 's new boss brings Office to the iPad	9	3	1
+e	Duchess of Cambridge 's hair is back to its glossy best as she arrives at ...	16	2	4
+b	Lululemon Rises as CEO Says He 'll Speed Up Global Expansion ( 1 )	14	11	3
+e	Kim Kardashian And Kanye West Tone It Down For The 2014 Met Gala	13	12	0
+b	Raiffeisen Bank Int ' l says Romania ops doing well	10	4	1
+b	India Morning Call-Global Markets	4	5	1
+t	Sheryl Sandberg Stops Short Of Apology For Facebook Mood Study	10	10	0
+b	Wholesale Prices in US Rise More Than Forecast on Services	10	9	0
+b	S.Korea stocks set for worst day in 2 weeks ; won flat	12	2	2
+b	FOREX-Yen at 10-day high vs dlr as BOJ offers little on more easing	13	9	2
+b	Japan 's Topix Index Posts Biggest Monthly Gain This Year	10	9	1
+b	UPDATE 8-Oil lower on signs of excess supply , weak demand in Europe and Asia	15	9	2
+b	Treasuries Fall First Time in Five Days as Services Gauge Climbs	11	9	0
+b	UPDATE 1- '' The Lego Movie '' , `` Game of Thrones '' boost Time Warner results	17	13	6
+t	UPDATE 1-BMW to recall more than 156000 vehicles in US	10	11	1
+e	Sherri Shepherd Fights For Full Custody Of Unborn Child After Filing For Divorce	13	13	0
+e	BET Suspends '106 & Park ' Producer For Blue Ivy Joke ( SOURCE )	14	16	5
+b	Data storage firm Box files for US IPO of about $ 250 million	13	7	1
+m	State-By-State 'Fertility Friendliness ' Rankings Show Wide Range	8	9	4
+t	Jacques Cousteau 's grandson returns to land after living in undersea lab for one ...	15	2	4
+b	Chinese Shares in Hong Kong Retreat Before Mainland IPOs	9	10	0
+t	Russia Postpones Launch of New Angara Rocket as Putin Watches	10	8	0
+m	Alzheimer Researchers See Protein as Target for Drugs	8	6	0
+b	UPDATE 1-South African engineering strike to go ahead on July 1 - NUMSA union	14	14	2
+e	Ruby Dee Leaves Us With Wise Words To Live By	10	10	0
+e	The caged bird who helped free the minds of racist America : Poet Maya Angelou ...	16	5	4
+t	First Day Of Spring 2014 Arrives On Thursday , March 20	11	8	1
+m	Hepatitis Exposure At Red Robin Restaurant In Missouri ; Thousands Offered ...	12	10	4
+e	Kim Kardashian posts gushing tribute to Kendall Jenner with Met Gala snap	12	6	0
+e	Kim Kardashian 's Video Game Makes The Quest For Fame Seem Tedious And ...	14	12	4
+b	UPDATE 1-Ackman accuses Herbalife of breaking laws in China	9	9	1
+t	Eta Aquarid Meteor Shower 2014 To Peak Early Tuesday Morning ...	11	9	3
+b	Spanish Bright Spot Shot as Gowex to File for Insolvency , CEO Quits on Fake ...	16	12	4
+m	Conjoined twins separated in Dallas are released from hospital	9	2	0
+e	UPDATE 2-'Shield ' actor Michael Jace arrested for murder of wife	11	9	3
+b	US pending home sales fall to lowest level since October 2011	11	3	0
+e	George Clooney Shames Daily Mail Into Apologizing Over False Story	10	10	0
+b	Alstom accepts GE offer for its energy unit : sources	10	3	1
+b	Spanish stocks - Factors to watch on Monday	8	3	1
+e	The View shake-up ! Jenny McCarthy and Sherri Shepherd 'sacked ' from talk ...	14	7	7
+b	Constancio Says Any ECB Policy Package Would Have Clear Aim	10	12	0
+b	NYMEX-US crude at over $ 101 on Libya , Iraq supply concern , US inventory ...	16	11	7
+t	World Cup fever hits the ISS : Astronauts show off their microgravity football skills ...	15	6	4
+b	NYMEX-US oil slips towards $ 104 as Libyan PM declares oil crisis over	13	10	2
+b	RPT- FOREX-Euro at 2-month high , tests ECB 's resolve on currency	12	12	5
+b	Corn Falls on Bets US Inventories to Rise ; Wheat Drops	11	9	1
+b	UPDATE 1-Snapchat in financing talks with Alibaba at $ 10 bln valuation ...	13	8	5
+b	Va. corn plantings expected to be down slightly	8	1	1
+e	Emma Watson changes into guaze dress for Noah premiere afterparty	10	3	0
+m	Developing Countries Seek Lower Price for Gilead Sovaldi	8	7	0
+b	California Probing Credit Card Breach at Driver 's License Agency	10	8	1
+t	CORRECTED-UPDATE 3-EBay says client information stolen in hacking attack	9	17	2
+b	BNP Paribas Expected To Plead Guilty And Pay Nearly $ 9 Billion Fine : Report	15	14	2
+b	US STOCKS-Wall St up for sixth straight session on earnings , healthcare	12	10	2
+b	Airline Customer Service : Still Not as Bad as Cable TV	11	9	1
+b	Medtronic deal draws Washington scrutiny of corporate tax relocations	9	2	0
+b	Tech Company That May Not Exist Is Worth $ 5 Billion	11	9	1
+b	UPDATE 2-German court confirms euro zone bailout scheme is legal	10	7	1
+b	Senators Propose Gas Tax Increase Of 12 Cents Per Gallon	10	9	0
+b	UPDATE 2-Renesas in talks with Apple , others on sale of display chip unit -source	15	8	3
+m	Flight 17 Crash Casts Shadow Over Melbourne AIDS Meeting	9	11	0
+b	GE credit card unit says to raise up to $ 3.25 bln in IPO	14	5	2
+e	Met Gala 2014 Red Carpet : See All The Glamorous Dresses ( PHOTOS )	14	15	3
+b	GE Profit Tops Estimates as Industrial Margins Expand	8	8	0
+m	Sierra Leone Imposes Ebola Emergency as Liberia Sets Quarantines	9	8	0
+b	UK economy basks in manufacturing growth , IMF upgrade	9	5	1
+b	Obamacare Coverage Estimate Unchanged by US Budget Office	8	8	0
+b	Amazon A Presence in Streaming Video , But Not Music ( Yet )	13	9	3
+e	Austria 's Eurovision entry Conchita Wurst splits opinion ahead of semifinal	11	4	1
+b	Investors begin prep for BNP Paribas Additional Tier 1 bond	10	7	0
+b	Asian Stocks Slip as Brent Drops ; Dollar Strengthens	9	7	1
+e	Carrie Fisher Mum On 'Star Wars ' Sequel Except To Say She Had To Lose 35 ...	17	14	5
+b	TREASURIES-Yields rise with German debt , re-set of bearish bond bets	11	12	3
+t	FCC Asked to Mediate LA TV Dispute on Dodgers Games	10	12	0
+e	'Raging Bull ' copyright fight goes to a second round	10	2	2
+b	Rise of the stay-at-home mother : How more immigrants and fewer jobs is forcing ...	15	2	6
+m	Which face is 'happily disgusted ' ? Scientists discover that humans have 21 ...	14	2	6
+m	American quarantined and tested for Ebola in Ghana after visiting two African ...	13	4	3
+m	Knowing Alcohol Brand References In Songs Linked With Teen Alcohol ...	11	10	3
+b	Navy SEALs Board Oil Tanker Stolen From Libyan Rebel Port	10	13	0
+e	Julia Louis-Dreyfus strips naked to simulate sex with a clown in GQ photo shoot	14	5	1
+e	It 's getting serious ! Lea Michele holds hands with her new beau Matthew Paetz ...	16	5	5
+e	Kris Jenner wears giant wedding ring as she 's flanked by Bruce in Paris	14	4	1
+m	1 In 8 U.S. Children Experience Neglect , Emotional Or Physical Abuse	12	10	3
+b	Deals of the day- Mergers and acquisitions	7	2	1
+b	Top Fox Executive Raises Pointed Questions About Comcast-Time Warner ...	10	10	4
+b	BRIEF-Boeing CEO says expects F-18 fighter jet line will remain open	11	10	2
+e	Jordin Sparks dazzles in sparkling LBD as she shows off her dramatic weight ...	14	5	3
+b	UPDATE 3-All big US banks but one pass Fed 's health test	12	10	2
+e	George Clooney 's father Nick gushes about Amal Alamuddin	9	5	1
+b	Deep-Sea Search for MH370 Was in Wrong Place , Australia Says	11	10	2
+m	Are You More Likely To Get Food Poisoning From A Restaurant Or Your Own ...	15	14	3
+t	GM Investors Unshaken as Recall Cuts $ 3 Billion in Value	11	8	1
+e	The Internet Reacts To US Airways ' NSFW Tweet Exactly How You Would Expect	14	17	1
+b	The US stock market is edging mostly higher in quiet trading ahead of the ...	15	3	3
+t	UPDATE 1-Twitter crashes 2nd time in 9 days , blames software glitch	12	7	2
+b	WRAPUP 2-China blames Vietnam for sea collisions , but calls for talks	12	8	2
+m	Consuming Sports And Energy Drinks Linked With Negative Behaviors Among ...	11	10	3
+b	US STOCKS-Wall St climbs to record after manufacturing data	9	10	1
+e	One hot momma ! Kim Kardashian wows in skintight skirt as she celebrates ...	14	3	4
+b	Korean Bonds Fall as Choi Refrains From Signaling Policy Easing	10	9	0
+e	Outkast 's Reunion Had A Weird Ending	7	6	1
+b	US STOCKS-Wall St ends higher but biotech selloff weighs	9	10	1
+b	Europe reaches crunch point on banking union	7	1	0
+b	AbbVie Raises Offer for Shire to $ 51.5 Billion	9	6	2
+b	WRAPUP 3-Argentina vows to service debt despite new legal blow	10	7	1
+t	UPDATE 3-Apple expands buybacks by $ 30 bln , OKs 7-for-1 stock split	13	9	5
+b	PRESS DIGEST- British Business - May 27	7	14	2
+b	Bank of England minutes show some members closer to voting for rate rise	13	2	0
+e	Ginnifer Goodwin shows off her pregnancy figure in skinny jeans as she steps ...	14	2	3
+e	The 'Back To The Grill ' Video , Featuring Nas , Is Perfect For Throwback Thursday	16	13	4
+e	And now , the Holy Grail for Python fans - the reunion stage show : Thousands ...	17	5	6
+b	Wells Fargo Posts 14 % Profit Increase as Fewer Loans Default ( 1 )	14	8	3
+e	Hollywood Boycott Threatens TransPacific Partnership	5	6	0
+t	Terrible Net Neutrality Plan Will Get A Makeover , Still Be Terrible	12	11	1
+b	Obama to force government contractors to reveal salary breakdowns by sex and ...	13	1	3
+b	Microsoft Corp. on Thursday posted net income and revenue that beat Wall ...	13	4	4
+t	Make Your Photos More # Hoffsome With This Google+ Prank	10	9	2
+e	Palm Sunday 2014 : Dates , Traditions , And History Of The Beginning Of Holy Week	16	12	3
+t	China reveals plans for 'supersonic submarine ' using underwater bubble	10	1	2
+b	Yuan Declines as PBOC Cuts Reference Rate to Eight-Month Low	10	12	1
+m	Found : Cancer 's deadly 'mother cells ' that if killed , could wipe out the disease	17	2	5
+m	Anthrax Mishandled by US CDC Labs Before Exposure , Report Says	11	12	1
+b	Thomas Piketty and Capitalism Beyond the 21st Century	8	5	0
+e	Kim vs Khloe : The Kardashian sisters post sexy selfies within minutes of each ...	15	4	4
+b	Fear of Pfizer-AstraZeneca job cuts voiced by US lawmakers	9	6	1
+e	Chris Colfer Not Leaving 'Glee , ' Manager Says Twitter Account Was Hacked ...	14	11	6
+m	You really can be nagged to death ! 'Excessive demands ' from partners can ...	15	2	6
+b	McDonald 's offering FREE coffee for two weeks in Taco Bell breakfast war	13	8	1
+b	Kroger offers $ 280 million for Vitacost.com in health play	10	2	2
+b	UPDATE 2-AIRSHOW-US says 'not giving up ' on bringing F-35s to UK air show	14	18	5
+b	PRECIOUS-Gold rises on Ukraine , Middle East conflicts ; Fed eyed	11	13	3
+b	Abercrombie Tones Down Nightclub Vibe to Win Back Teens	9	8	0
+e	Bob Geldof pays emotional tribute to his daughter Peaches	9	3	0
+m	'Cruise Ship Virus ' Sickens 20 Million Americans on Land Each Year	12	9	2
+t	Scientists find largest dinosaurs Titanosaur fossil	6	2	0
+e	Robin Thicke trolled on Twitter in Q & A backlash over his 'sexist ' lyrics	15	5	3
+b	UPDATE 3-Iraq seeks arbitration against Turkey on Kurdish oil sale	10	9	1
+b	Hedge Funds Cut Gold Bets in Longest Slide of 2014	10	7	0
+b	Yellen Says Rates to Stay Low as Long as Jobs , Price Gaps Remain	14	10	1
+e	Burglars Steal Jewelry And Luxury Car From Miley Cyrus ' Home	11	10	1
+b	Russia cuts gas to Ukraine , flows to EU threatened	10	4	1
+b	FOREX-Dollar extends gains despite dovish Yellen comments	7	7	1
+b	UPDATE 2-Portugal 's BES shares on roller-coaster after short-selling ban	10	10	4
+b	REFILE-US STOCKS-Wall Street drops on news of downed Malaysian plane	10	17	2
+b	UK Wants More Guarantees From Pfizer Over AstraZeneca Bid ( 1 )	12	11	2
+t	Facebook to use solar-powered British drones to give earth 's remotest spots the ...	14	2	5
+e	Michael Strahan finalizing deal to join Good Morning America	9	5	0
+e	Neil Patrick Harris Poses Naked On The Cover Of Rolling Stone	11	11	0
+e	Fans weigh in on new female Thor	7	2	0
+e	Ex-BBC Entertainer Guilty of Assaulting Girls as Young as 7	10	9	1
+b	MARKET EYE-Indian bond yields to edge higher , tracking crude , US peers	13	12	3
+b	BP Refinery Spills Oil Into Lake Michigan During Malfunction	9	10	0
+e	Jack White Records , Releases Single In Hours For Record Store Day 2014	13	11	1
+b	Strike at Nike , Adidas China Supplier Halts Output ( 2 )	12	7	3
+b	Twitter Loses a Powerful Executive	5	4	0
+b	Russia diplomat says US high-tech export curbs will be a blow	11	3	1
+e	Maundy Thursday 2014 : The History Behind The Holy Thursday Before Easter	12	10	1
+t	Does YOUR dog have 'domestication syndrome ' ? Scientists reveal why pets ...	13	6	6
+b	Puerto Rico aqueduct & sewer authority sees no debt restructure	10	2	1
+e	DAILY DIARY	2	10	0
+b	Hong Kong shares hit 8-month low on Fed , China Mobile news	12	5	2
+t	AAA : Average price of gasoline in Oregon $ 3.98	10	5	3
+e	Angelina Jolie looks gorgeous in new featurette for Maleficent	9	3	0
+b	Euro-Area April Inflation Quickens Less Than Estimated	7	8	1
+b	Washington Is Just Hours Away From Legalized Recreational Pot	9	9	0
+b	Valeant Begins Tender Offer for Allergan Hostile Takeover	8	7	0
+m	Fewer People Got Sick From Salmonella In 2013 , Food Poisoning Report Shows	13	11	1
+t	UPDATE 3-World court orders halt to Japan 's scientific whaling	10	8	2
+e	George Clooney Steps Down As UN 'Messenger Of Peace ' After 6 Years In ...	15	13	5
+e	Lindsay Lohan hit by claims she faked miscarriage on reality TV show	12	4	0
+b	UPDATE 2-Spain 's Gowex to file for bankruptcy , says accounts were false	13	8	3
+m	Brain Implants To Cure Mental Disorders May Soon Be A Thing	11	11	0
+m	Oscar Pistorius not mentally ill during killing of model girlfriend Reeva ...	12	3	3
+e	Jada Pinkett Smith Slams Willow Smith Photo 'Controversy '	9	8	2
+e	No More Mother 's Day for Me : I Remember Mom	11	8	2
+b	GLOBAL MARKETS-Stocks down on Fed official 's rate hike call ; sterling rises	13	15	3
+b	CBS Outdoor Raises $ 560 Million in IPO as Next Step to REIT	13	15	1
+t	Iliad Bids $ 15 Billion in Challenge to Sprint for T-Mobile	11	7	2
+e	# AskThicke Inspires Onslaught Of Harsh Questions For Robin Thicke	10	10	1
+b	Fitch Affirms Coventry Building Society 's Mortgage Covered Bonds at 'AAA ...	12	11	5
+e	New 'Indiana Jones ' Rumor Has Bradley Cooper Possibly Replacing Harrison Ford	12	11	2
+t	Consumer groups seek FTC probe on CarMax for `` deceptive '' ads - NYT	14	9	3
+b	China Swaps Complete First Weekly Gain in Four on Improving Data	11	9	0
+b	Philips CEO says 2014 earnings improvement now more difficult	9	4	0
+b	Twitter Stock Surges as CEO Costolo Makes Case for Growth	10	10	0
+b	US mortgage applications fell last week : MBA	8	5	1
+e	'Dismayed and gutted ' : Tony Abbott 's reaction as Rolf Harris is found guilty of 12 ...	18	5	7
+b	Japanese Dump Most Euro Bonds on Record Amid Ukraine Tension ( 1 )	13	9	2
+e	Inside the stunning Castlemartyr Resort in Ireland where Kim Kardashian and ...	12	6	3
+t	Nissan , Honda Recall Almost 3 Million Cars Over Air Bags	11	9	1
+e	Calls to cancel Miami 's Ultra Music Festival after female security guard was left in ...	16	5	4
+e	Chris Martin Gives Andrew Garfield A Lesson In French Kissing	10	10	0
+t	Diane Von Furstenberg Tries To Make Google Glasses Cool ... Again	11	10	3
+e	UPDATE 3-Amid boycott of Beverly Hills haunt , city confronts Brunei over sharia ...	14	10	5
+b	UPDATE 2-Private brands business hurts ConAgra 's profit	8	9	2
+m	Hepatitis C Treatment Cures Up To 90 % : Study	10	7	2
+b	Tesco sees tough year ahead as profit falls	8	1	0
+t	Astronomers Discover Mega-Earth Exoplanet	4	5	1
+m	Bald Is Beautiful : The Message That Got One Young Girl Banned From School	14	13	1
+t	Dueling , Google , and the 'Right to Be Forgotten '	11	5	4
+m	New study says Autism may be caused by environmental factors	10	2	0
+e	40 Artists To Know At SXSW 2014	7	8	0
+b	Fed could ditch flawed 'dots ' rates forecasts : Fisher	10	2	3
+t	Trend Alert : 6 Messaging Apps That Let Teens Share ( Iffy ) Secrets	14	10	3
+e	Pin-up photographer and model Bunny Yeager , famous for shots of Bettie Page ...	14	5	5
+e	UPDATE 2-Gabriel Garcia Marquez , master of magical realism , dies at 87	13	9	3
+t	Facebook Sought Out by Modi to Improve Indian Governance	9	7	0
+b	UPDATE 1-US pending home sales hit eight-month high in May	10	9	2
+e	Snake preacher 's son handler bitten by SIX-FOOT rattlesnake just months after ...	13	8	5
+e	Whoopi Goldberg writes first marijuana blog	6	2	0
+m	Gay Conversion Therapy Ban Advances In Illinois	7	7	0
+b	Boeing to Build Largest 787 Dreamliner in South Carolina	9	6	0
+b	European Bonds Jump as Draghi Signals Potential for June Action	10	8	0
+b	US Stocks Rise While Treasuries Decline on Ukraine , Earnings	10	9	1
+t	Gender Non-Conforming Teen Forced To Remove Makeup For Driver 's License ...	12	11	5
+b	US top court mostly upholds Obama bid to curb carbon emissions	11	3	0
+t	UPDATE 7-France 's Iliad challenges Sprint for control of T-Mobile	10	11	3
+e	Eva Longoria and Salma Hayek steal the show in fitted gowns at the Saint ...	15	5	3
+b	UPDATE 2-Fiat investors approve Chrysler merger	6	8	1
+t	Ford goes to great heights as it shows off 50th anniversary Mustang on top of ...	16	2	3
+b	Gold Futures Climb as Violence in Ukraine Boosts Demand	9	7	0
+b	Delta Shrugs Off Winter Travel Woes With Warm Profits	9	9	0
+t	How dinosaurs shrank over 50 million years : Family tree maps the ...	13	2	4
+t	Elon Musk warns the Terminator films could become reality : Tesla founder is ...	14	4	4
+b	UPDATE 1-JM Smucker hikes coffee prices for first time in 3 years	12	9	1
+e	UPDATE 3-Eli Wallach , prolific US character actor , dies at 98	12	10	3
+b	Toyota Revamps Camry 's Looks to Sustain US Car-Volume Edge ( 1 )	13	10	4
+t	UPDATE 1-Big tech companies offer millions after Heartbleed crisis	9	8	1
+b	GLOBAL MARKETS-World equities fall on valuation fears again , bonds gain	11	14	2
+e	A depressing betrayal of fans like my little girl : One Direction are a million miles ...	17	3	4
+b	UPDATE 2-US will allow some exports of a light crude oil -WSJ	12	11	2
+b	In Hillshire Bidding War , a Play for Meat-Eating Home Cooks	11	9	2
+t	UPDATE 1-Samsung may unveil 'watch-phone ' as early as June -WSJ	11	11	5
+e	One cent stamp sells for $ 9.5 MILLION in New York making it the most expensive ...	17	10	5
+e	Kim Kardashian and Kanye West celebrate baby North 's first birthday	11	5	1
+t	Neil deGrasse Tyson Talks Asteroids With 9-Year-Old Boy In Michigan	10	11	2
+b	Brent in Contango First Time Since April on Libya Ports	10	8	0
+m	PetSmart Joins Petco , Stops Selling Pet Treats From China Amid FDA Concerns	13	15	1
+b	Ukraine and Iraq undermine German business morale -Ifo economist	9	4	1
+t	Climate Change This Week : US Flunks Efficiency , Green Bonds Grow , And More !	16	13	4
+b	UPDATE 4-IMF 's Lagarde put under investigation in French fraud case	11	11	2
+m	Artificial pancreas could help stem the diabetes epidemic	8	1	0
+b	Taiwan Dollar Set for Biggest Weekly Gain Since 2012 on Inflows	11	8	0
+b	Japan business confidence worsens in Q2 - BOJ tankan	9	5	1
+b	UPDATE 2-Italy 's UniCredit posts record $ 19 bln loss after writedowns	12	9	3
+e	Sh * t Got Really Weird At This Wedding , Thanks To Tom Hanks	14	11	2
+t	How to Put a Mustang Atop the Empire State Building	10	7	0
+e	Eating for two ! Pregnant Kourtney Kardashian gets pizza with gal pal in ...	14	4	4
+b	GM Recalls Another 2.42 Million Vehicles	6	6	1
+m	Children 's Brands In Fight To Keep Names Off E-Cigarettes	10	10	2
+b	FOREX-Dollar pauses after Fed-led surge	5	7	2
+e	Captain America : The Winter Soldier smashes April box office records	11	6	1
+b	UPDATE 2-Crafts retailer Michaels raises $ 473 mln in IPO	10	11	2
+b	RPT-FOREX-Euro firm on expectations of inflation uptick ; pound surges	10	9	3
+b	UPDATE 1-BES warns of possible legal breaches , vows to raise capital	12	9	2
+b	Egypt 's prime minister seeks to justify fuel subsidy cuts	10	1	1
+e	These People Are Having A Really Hard Time Dealing With Gwyneth Paltrow ...	13	12	3
+t	Facebook 's Nearby Friends service will share your exact location with friends	12	3	1
+e	Middlebrow : Kimye And The # WorldsMostTalkedAbout Cover Of Vogue	10	11	2
+b	Speed Traders Play Defense Against Michael Lewis 's Flash Boys	10	9	1
+b	Retail Sales in US Increased in March by Most Since 2012	11	8	0
+b	Topix Falls Before BOJ as Technology Shares Slump , Takeda Drops	11	11	1
+e	X-Men director Bryan Singer 's sex abuse accuser working on bombshell expose	12	4	2
+m	Girl mauled by raccoon as a baby will have a right ear made of her ribs	16	1	0
+b	Pound Pares Drop as Putin Says Russia Not Planning Ukraine Split	11	10	0
+t	Apple now has access to Beats streaming music service allowing it to compete ...	14	2	3
+e	Elle Fanning keeps it comfortable in gym gear as she takes a break from ...	15	2	3
+b	RPT-CNPC-Gazprom Deal a Medium-Term Positive for China 's Gas Sector	10	15	4
+b	US STOCKS-Futures little changed ahead of data ; Wal-Mart earnings disappoint	11	11	3
+e	Dancing With The Stars ' James Maslow shows off six-pack abs	11	6	2
+b	CBS Sales Fall Short as Ads Decline From Super Bowl-Aided 2013	11	12	1
+b	PRECIOUS-Gold dips but Malaysian plane downing seen aiding sentiment	9	10	1
+b	Brent up near $ 113 on supply worries as Iraq violence rises	12	2	1
+e	Who will design Kim Kardashian 's wedding dress ? Balmain , Lanvin , Alaia or ...	16	6	7
+b	Report : 18 Detained In Turkish Mine Disaster Probe	9	7	1
+b	PRECIOUS-Gold steady , but strong US jobs data could drag	10	11	2
+e	'Fury ' Trailer Puts Brad Pitt & Shia LaBeouf In A Tank	12	11	3
+b	UPDATE 1-SolarCity buys solar panel maker to lower costs	9	8	1
+b	13 Powerful Photos Of McDonald 's Workers Protesting For Better Pay	11	10	1
+b	UPDATE 2-Facebook Q1 revenue grows 72 percent on rising mobile ads	11	8	1
+b	UPDATE 4-IBM 's quarterly revenue sinks to 5-year low as hardware sales fall	13	9	3
+t	That Android Anti-Virus App You Paid $ 4 For ? Yeah , It 's A Scam .	17	12	6
+m	Saudi Arabia Removes Health Minister as Deadly Virus Spreads ( 1 )	12	8	2
+t	Obamacare users urged to reset passwords to protect system from the ...	12	1	3
+b	UPDATE 1-US to allow some people to enroll in Obamacare after deadline	12	9	1
+e	'Really upset ' Blythe Danner 'begged ' daughter Gwyneth Paltrow not to end ...	14	5	7
+m	Tran 's right knee was crushed and her left dislocated , but her daughters were fine	16	1	2
+m	New Guideline Says Marijuana Pills Can Ease Some Multiple Sclerosis Symptoms	11	11	0
+e	Week in Film : 22 Jump Street , The Signal and More	12	7	2
+b	UPDATE 3-Australia says missing Malaysia plane not where `` pings '' heard	12	8	3
+b	Duke Energy says it will move coal ash in response to spill	12	2	0
+b	FOREX-Euro slips further but little faith in dollar rally	9	6	1
+b	US STOCKS-Wall St edges higher during earnings flurry	8	10	1
+e	Amazon Prime Just Got Way Better With A Ton Of Old HBO Shows	13	15	0
+m	Motor racing-Probe into theft of Schumacher medical records	8	3	1
+t	Google now plans to conquer space after holding investor talks with Virgin Galactic	13	3	0
+e	Selena Gomez Slips Into Sheer , Backless Shirt For Sultry Instagram Photo	12	11	1
+e	10 Things to Know for Today - 27 June 2014	10	4	1
+e	UPDATE 1-Actress Ann B. Davis , devoted 'Brady Bunch ' housekeeper , dies	13	12	6
+b	UPDATE 3-Netflix plans to raise prices as US streaming subcribers grow	11	9	1
+m	Aspirin to Prevent Heart Attack Should Be Limited , FDA Says ( 2 )	14	11	3
+b	US corn ratings rise above market view , soybean ratings dip	11	2	1
+b	US IRS rules virtual currencies are property for tax purposes	10	5	0
+b	Fitch Affirms Lebanon at ' B ' ; Outlook Negative	10	6	3
+b	FOREX-Dollar dips , eyes on central banks	7	6	2
+e	Lawyer : Bryan Singer Not In Hawaii During Sexual Assault Claim	11	10	1
+e	WATCH : New Anti-Gay Sermon From 'Duck Dynasty ' Star Leaks	11	14	4
+b	More Russians face sanctions over Ukraine	6	3	0
+e	Willow Smith , 13 , pictured lying in bed with 20-year-old Moises Arias	13	4	4
+e	Abortion counselor Emily Letts posts YouTube video of her OWN termination	11	8	0
+e	Cause of GWAR frontman 's death revealed : Shock rocker Dave Brockie AKA ...	14	11	5
+t	20 Full Moon Artworks To Welcome Tonight 's Spooky Honey Moon	11	9	1
+e	Mila Kunis fuels pregnancy rumours as she hides her frame in baggy sweater ...	14	2	3
+b	Economy minister asserts Argentina not in default	7	2	0
+b	SunTrust To Pay Nearly $ 1 Billion To Settle Faulty Mortgage Allegations	12	11	1
+b	UPDATE 2-US airlines signal solid demand ahead of earnings	9	8	1
+b	UPDATE 2-Hertz to raise $ 2.5 bln through equipment business spinoff	11	7	3
+e	Vanessa Paradis is elegant in New York as she opens up about Johnny Depp	14	6	0
+b	Chinese premier admits 'friction ' with the United States	9	3	2
+e	Jason Aldean dating American Idol contestant Brittany Kerr after affair	10	6	0
+b	UPDATE 2-Airbus , Safran create space launch joint venture	9	8	2
+t	Air pollution in Paris gets so bad car driving is BANNED on alternate days	14	8	0
+b	US STOCKS-Wall St flat after selloff , but Nasdaq continues to fall	12	11	2
+e	Prince George Takes First ( Public ) Steps In Style	10	8	2
+m	MERS virus spread from one man to another in Illinois 'during business meeting ...	14	5	4
+b	Amazon 's Sales Satisfy the Street	6	4	1
+t	25 miles and counting ! Nasa 's Mars rover Opportunity breaks record for distance ...	15	3	5
+b	WRAPUP 6-Argentina to negotiate with holdout investors for first time	10	7	1
+e	Coy Kim Kardashian and Kanye West giggle their way through date night in New ...	15	6	3
+m	Parents warned phone addiction could damage bond with child	9	1	0
+b	US drug giant Pfizer 's promise to protect jobs after takeover of UK rival 'not worth ...	17	5	5
+e	At Tribeca Film Festival , Movies Are Only Part Of The Story	12	11	1
+e	Will Smith and Jada have 'no issues ' with daughter Willow lying in bed with ...	16	4	5
+e	FDR Walks In Rare Footage Showing 'Brave Struggle '	9	10	2
+b	FOREX-Dollar dips versus yen , euro remains under pressure	9	6	2
+b	GRAINS-Wheat firms 1 percent on US planting delays	8	9	1
+t	East Antarctica more at risk than thought to long-term thaw : study	12	2	2
+e	Oprah Is Now Making Tea And It Is Called 'OPRAH CHAI '	12	18	2
+b	Wall St rises on Citi earnings , data ; eyes on Ukraine	12	4	2
+b	Morgan Stanley reduces risky fixed-income assets by 5 pct	9	2	1
+b	US STOCKS-Apple buoys Nasdaq ; Ukraine weighs on broader market	10	11	2
+m	UPDATE 5-Ebola patient coming to US as aid workers ' health worsens	12	9	2
+b	FOREX-Euro hits new 3-month low , sterling falls	8	6	3
+b	Ford 's New CEO Mark Fields Eligible for 33 % Rise in Pay	13	10	2
+e	Jill Abramson Backs Out Of Brandeis Commencement Ceremony , Will Still ...	12	10	4
+e	Beyonce Joins Solange During Her Coachella Set , Plus More Of The Fesival 's ...	15	12	5
+b	US forces hand over seized oil tanker to Libya : agency	11	3	1
+b	UK shares slide on China growth concerns , geopolitical tension	10	3	1
+b	Murdoch Bid Boosts Carey as James Jockeys for Position	9	7	0
+b	BNP Said Close to $ 9 Billion Sanctions Accord With US	11	11	1
+b	Yellen Says Asset Values Are n't Out of Line With Past Norms	12	10	1
+e	GoT finishes on a ratings high	6	2	0
+t	It 's politics not science that is driving the climate change mania : UN predictions ...	16	3	5
+b	Jobless Claims in US in Past Month Drop to Eight-Year Low	11	10	1
+e	Zendaya No Longer Playing Aaliyah In Lifetime Biopic	8	8	0
+b	Chronology : Argentina 's turbulent history of economic crises	9	2	2
+e	Angelina Jolie prepared to run for office but only if she can 'be effective '	15	2	2
+m	Michigan Man Is Among The First In US To Get 'Bionic Eye '	13	13	2
+e	George Clooney Pens Op-Ed Addressing Marriage Rumors , Calls Daily Mail ...	12	11	5
+e	UPDATE 2-Judge orders singer Chris Brown to stay in jail	10	9	1
+b	WTO Talks on Bali Accord Near Collapse Over India 's Objections	11	11	1
+e	Miley Cyrus makes date rape comment at G-A-Y nighyclub in London	11	6	2
+b	UPDATE 1-Bank of America 's financial crisis costs become a recurring nightmare	12	8	2
+b	UPDATE 1-Central banks must contain threat from low prices -Noyer	10	8	2
+b	NY Trading Probe , Hedge Fund Risk , Fannie Bill : Compliance	12	10	3
+t	New iPhone 6 screens to enter production as early as May : sources	13	3	1
+m	Victory for lung-transplant recipient Sarah Murnaghan as new rule will allow ...	12	3	4
+b	UPDATE 5-Candy Crush maker King Digital shares sour in market debut	11	10	1
+b	UPDATE 3-Zebra Tech to buy Motorola Solutions ' enterprise business	10	10	2
+b	Nigeria to reweight its inflation next , after GDP shift	10	4	1
+b	Harsh winter cited as IMF lowers estimate of US economic growth in 2014 to 2 ...	16	6	3
+e	Brad Pitt To Star As General McChrystal In Adaptation Of Michael Hastings ' 'The ...	15	14	5
+b	Frenzy of Volatility Bets Underpin Lowest VIX Since 2007	9	9	0
+e	One In A Million ! Zendaya cast to play late singer Aaliyah in Lifetime biopic	15	7	1
+b	RPT-Fitch Affirms Thailand 's PTTGC at 'AA ( tha ) ' ; Outlook Stable	14	15	7
+m	Night shifts can cause an irreversible loss of brain cells - and lie-ins are n't ...	16	1	6
+e	Full House will return to TV with revival starring original cast	11	4	0
+e	Captain America beats up the competition at the box office for third straight ...	14	2	3
+m	3D scan to revolutionise breast screening technique that builds detailed picture ...	12	1	3
+e	Fishing in TV 's Deadpool : Yahoo 's Risk-Averse Community Revival	11	9	4
+e	Charlize Theron reveals how friendship with Sean Penn became love	10	4	0
+m	1 In 25 Patients Experience Infection Related To Hospital Stay , Report Shows	13	10	1
+b	Telus announces leadership transition as Canfield retires	7	2	0
+b	US STOCKS-Wall St rallies , S & P 500 cuts losses for the week	14	12	3
+b	Russia faces having assets seized around the world after international court ...	12	1	3
+e	Why This Beloved Character Did n't Make It In 'Veronica Mars '	12	10	3
+b	GLOBAL MARKETS-Banks boost Europe as shares start second half brightly	10	15	1
+b	UPDATE 2-Fed 's Evans says he wants no rate hike until early 2016	13	8	2
+b	US Crude Oil Ruling Seen Opening Niche Export Markets	9	10	0
+b	Valeant Raises Takeover Offer for Allergan With More Cash	9	8	0
+t	Nasa 's 2020 Mars Rover mission revealed : A device that produces oxygen and ...	15	4	5
+b	Finma Says Credit Suisse Wo n't Face New Measures in Switzerland	11	9	1
+b	US STOCKS-Futures dip ahead of jobs , GDP data	9	12	2
+b	March Against Monsanto Takes Action in Hollywood	7	6	0
+e	UPDATE 1-New Harry Potter attraction opens at Florida theme park	10	10	1
+b	Amazon Actually Telling Customers To Shop Elsewhere	7	7	0
+b	FED FOCUS-For eventual tightening , Fed to signal slow rate rises	11	10	2
+b	Brent slips below $ 108 as Mideast tension cools on Gaza lull	12	3	1
+b	Bitcoin Criminals Challenge US Law Enforcement , Holder Says	9	9	1
+e	Double trouble ! Chris Hemsworth and wife Elsa Pataky welcome twin BOYS	12	9	1
+m	The Lowdown On Chikungunya , The Mosquito-Transmitted Virus You Should ...	11	10	5
+m	Ebola outbreak medic reveals true horror in Guinea	8	2	0
+b	Indian bond yields hit 1-month high on rising crude oil prices	11	1	1
+e	Seth Rogen hosts SNL with help from James Franco , Zooey Deschanel and ...	14	9	4
+b	Fiat Chrysler CEO seeks 4.5 mln car sales in 2014	10	5	1
+t	Facebook may be gunning for Snapchat as reports claim tech giant is working on ...	15	2	3
+b	US government seeks greater disclosure of airline fees	8	2	0
+b	Gap quarterly profit falls 22 pct	6	1	0
+e	Kim Kardashian carries adorable baby North	6	3	0
+e	Gisele Bundchen and Tom Brady list $ 50m LA 'fortress ' mansion after spending ...	15	6	6
+b	White House : no change to US policy on crude oil exports	12	4	1
+b	American Apparel CEO is fired after being ousted not only for sexual harassment ...	14	5	3
+m	Topless Woman Goes On Rampage In Florida McDonald 's	9	9	1
+e	'Love is my reason to live ' : The Bachelorette contestant Eric Hill appears in final ...	17	5	6
+m	Labor Dept . Cuts Levels Of Allowable Coal Dust	9	8	1
+b	The $ 45 Billion Comcast-TWC Deal in 60 Seconds	9	8	2
+e	MSG Buys 50 Percent Stake in De Niro 's Tribeca Film Festival	12	11	1
+e	Guy 's 'Wheel Of Fortune ' Lucky Guess Is Absolutely Incredible	11	9	3
+b	WRAPUP 2-Draghi says a stronger euro would trigger looser ECB policy	11	10	1
+b	Total Stopped Buying Novatek Stock After Jet Downing	8	8	0
+b	ECB Says Search for Yield May Harm Financial Stability in Europe	11	11	0
+b	Target Earnings Show Pain of Data Breach Is Far From Over	11	10	0
+m	Guinea 's Ebola Crisis : An Interactive Guide	8	6	2
+e	50 Cent 's Latest Album , 'Animal Ambition , ' Is Proof He 's Getting Older	16	10	6
+t	UPDATE 1-'Disappointed ' Amazon fights FTC over mobile in-app buys	10	11	4
+t	Ca n't afford Google Glass ? These smart specs are a TENTH of the price : Frames ...	18	10	6
+t	The Hole in Microsoft Explorer is Bigger Than You Think	10	8	0
+m	Former NYC hospital exec charged with $ 5.6 mln painkiller theft	11	4	2
+t	Heartbleed Hackers Steal Encryption Keys in Threat Test	8	7	0
+t	REFILE-Hackers steal Domino 's Pizza customer data in Europe , ransom sought	12	10	3
+b	Ergen DirecTV Overture Puts Dish in Play as AT & T Waits : Real M & A	17	15	3
+b	SE Asia Stocks -Mixed ; Manila shares fall on concerns over weak China demand	14	7	2
+t	UPDATE 1-GM to make Mexico-built Cadillac SRX crossover in Tennessee	10	14	2
+b	Yellen Watches American Paycheck for Signals on Shadow Slack	9	7	0
+m	Binge Drinking Is Killing a Lot of Americans	8	6	0
+b	BOE Sees Risk of Further Pound Gain as UK Economy Recovers ( 1 )	14	12	2
+b	RPT-Euro zone candidate Lithuania gains ECB scrutiny of top lenders	10	8	1
+b	Toyota sees 2.4 pct drop in FY 2014/15 net profit , below estimates	13	3	3
+b	Argentina Tests US Court Order by Posting Interest Payment	9	9	0
+m	HIV-Positive Men May Face Higher Heart Disease Risk	8	11	1
+b	Bitcoin Currency Use Impeded by IRS Property Treatment	8	9	0
+b	UPDATE 3-GM to seek court protection against ignition lawsuits	9	8	1
+e	'Jupiter Ascending ' Pushed Back To February 2015 Release Date	10	8	2
+e	Mekhi Phifer Files For Bankruptcy , Reportedly $ 1.3 Million In Debt	12	9	3
+b	Better labor , inflation data likely temporary : Fed 's Kocherlakota	11	3	3
+m	Where 's My Hammer ? Did You See My Blusher ?	11	8	3
+e	Lindsay Lohan sports painful-looking cuts and bruises on her legs as she steps ...	14	2	4
+b	WRAPUP 2-US 2nd-quarter growth forecasts cut on tepid consumer spending	10	8	2
+b	Obamacare Deadline Extended for Last-Minute Enrollees	6	6	1
+t	UPDATE 1-Rare T.rex sets off from Montana on road trip bound for Smithsonian	13	10	2
+e	Hilary Duff Still Has ' A Lot Of Love ' For Estranged Husband Mike Comrie	15	13	2
+t	Tesla Sued by Businesseman Claiming China Trademark Right	8	7	0
+e	Dancing With The Stars victor Meryl Davis hints at Maksim Chmerkovskiy romance	12	8	0
+b	UK economy to grow by 3.2 % this year in boost for Osborne , but warning he ...	18	3	6
+b	Deutsche Bank Q2 profit up 16 percent , debt trading steady	11	3	1
+b	J & J Accepts $ 4 Billion Offer From Carlyle for Ortho Unit ( 2 )	16	9	4
+b	UPDATE 1-Fannie Mae to pay US Treasury $ 5.7 billion on quarterly profit	13	11	3
+b	FOREX-Euro hovers near 1-year low on Draghi 's comments , eyes IFO	12	10	4
+e	CORRECTED-Ryan Gosling debut fails to light Cannes critics ' fire	10	12	2
+b	Gap Profit Tops Estimates as Athletic Selection Boosts Sales	9	8	0
+b	Looming South Africa engineering strike latest blow to sickly economy	10	3	0
+e	'It was planned ... they want a handful of kids ' : Kourtney Kardashian 'pregnant ...	16	3	10
+e	First look at Ryan Gosling 's new movie	8	3	1
+b	Fitch Affirms Taiwan 's E.Sun Securities at ' A+ ( twn ) '	13	7	7
+m	Woman Sold Heroin From Hospital Bed : Cops	8	7	1
+b	Top court mostly upholds Obama bid to curb carbon emissions	10	2	0
+t	Yahoo to Keep More of Alibaba After IPO , Return Cash	11	10	1
+b	Nikkei bounces back to end up on month and quarter , window-dressing cited	13	1	2
+b	McDonald 's Sees April Sales Growth After Profit Fell Short ( 2 )	13	10	3
+b	China Doubles Yuan 's Trading Band Giving Market Greater Role ( 1 )	13	9	3
+b	Gold Trades Above 3-Week Low Before Yellen 's Testimony	9	8	2
+b	UPDATE 1-NY Fed 's Dudley says inflation drifting up , economic growth lagging	13	10	3
+b	AutoNation reports 14 percent jump in second quarter profit	9	2	0
+b	FOREX -Kiwi rallies on hawkish RBNZ , euro eyes ECB speech	11	13	2
+b	UPDATE 4-Japan drugmaker Takeda to fight $ 6 bln damages awarded by US jury	14	10	2
+e	Why Joan Deserves More Attention On 'Mad Men '	9	8	2
+b	Patent Officials Cancel the Washington Redskins ' 'Disparaging ' Trademarks	10	7	3
+b	CORRECTED-Allergan rejects Valeant Pharma 's takeover bid	7	12	2
+b	Vietnam Stocks Lure Foreign Investors as Locals Spur Selloff ( 2 )	12	8	2
+b	Pimco Total Return Fund had net outflows of $ 4.5 bln in June -Morningstar	14	6	3
+b	UPDATE 3-Fukushima worker killed in accident , cleanup halted	9	7	2
+b	Google Needs Up to $ 30 Billion in Cash Overseas for Deals ( 1 )	15	7	3
+b	Chinese tycoon serves up free luxury lunch to hundreds of homeless in Central ...	14	2	3
+b	Twitter User Growth Slows as New Products Fail to Excite	10	8	0
+e	Jennifer Lopez hails teen Jena Irene her favourite singer on Idol as last 11 ...	15	5	3
+b	AOL Profit Falls Short of Estimates on Costs to Lure Viewers ( 1 )	14	10	2
+b	NYMEX-US crude under $ 106 as data shows near record Iraq exports	12	8	2
+e	Miley Cyrus Does Karaoke , Sings 'Baby Got Back , ' Which , Funnily Enough , Is As ...	19	13	9
+t	The National Climate Assessment : No Time to Waste	9	7	1
+b	Report : BNP Paribas May Face 1-Year Ban On Some Transactions	11	12	2
+b	UPDATE 2-Budget airline easyJet lifts first-half results forecast	8	8	2
+e	This year at Tribeca , which runs through April 27 , movies are only part of the story .	19	3	3

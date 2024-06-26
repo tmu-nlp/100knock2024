@@ -1,0 +1,1 @@
+cut -f1 -d$'\t' data/popular-names.txt | LANG=C sort | uniq > data/popular-names-uniq-names.txt
