@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a37939-89a4-45f3-bf65-4d19bd2eef0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock60.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock61.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock63.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock64.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock69.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siqingwang/chapter06/knock58.py" beforeDir="false" afterPath="$PROJECT_DIR$/siqingwang/chapter06/knock58.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/siqingwang/chapter06/knock59.py" beforeDir="false" afterPath="$PROJECT_DIR$/siqingwang/chapter06/knock59.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.knock16.executor": "Run",
+    "Python.knock16.executor": "ConcurrencyExecutor",
     "Python.knock20.executor": "Run",
     "Python.knock25.executor": "Run",
     "Python.knock40.executor": "Run",
@@ -68,36 +76,6 @@
       <recent name="$PROJECT_DIR$/siqingwang/chapter05" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="knock16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100knock2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/siqingwang/chapter02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/siqingwang/chapter02/knock16.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.knock16" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -119,7 +97,8 @@
       <workItem from="1716117327469" duration="1253000" />
       <workItem from="1717398614194" duration="3518000" />
       <workItem from="1718004284294" duration="1251000" />
-      <workItem from="1718168382863" duration="3441000" />
+      <workItem from="1718168382863" duration="3470000" />
+      <workItem from="1718173547516" duration="167000" />
     </task>
     <servers />
   </component>
@@ -141,14 +120,14 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/100knock2024$knock16.coverage" NAME="knock16 Coverage Results" MODIFIED="1718004399477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter02" />
     <SUITE FILE_PATH="coverage/100knock2024$knock55.coverage" NAME="knock55 Coverage Results" MODIFIED="1718004801782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
-    <SUITE FILE_PATH="coverage/100knock2024$knock58.coverage" NAME="knock58 Coverage Results" MODIFIED="1718172883009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
+    <SUITE FILE_PATH="coverage/100knock2024$knock16.coverage" NAME="knock16 Coverage Results" MODIFIED="1718800921303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter02" />
+    <SUITE FILE_PATH="coverage/100knock2024$knock58.coverage" NAME="knock58 Coverage Results" MODIFIED="1718800855431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
     <SUITE FILE_PATH="coverage/100knock2024$knock51.coverage" NAME="knock51 Coverage Results" MODIFIED="1718004609607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
     <SUITE FILE_PATH="coverage/100knock2024$knock25.coverage" NAME="knock25 Coverage Results" MODIFIED="1716117591061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter03" />
     <SUITE FILE_PATH="coverage/100knock2024$knock40.coverage" NAME="knock40 Coverage Results" MODIFIED="1717398711831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter05" />
     <SUITE FILE_PATH="coverage/100knock2024$knock41.coverage" NAME="knock41 Coverage Results" MODIFIED="1717402901480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter05" />
-    <SUITE FILE_PATH="coverage/100knock2024$knock59.coverage" NAME="knock59 Coverage Results" MODIFIED="1718172869269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
+    <SUITE FILE_PATH="coverage/100knock2024$knock59.coverage" NAME="knock59 Coverage Results" MODIFIED="1718173668066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
     <SUITE FILE_PATH="coverage/100knock2024$knock52.coverage" NAME="knock52 Coverage Results" MODIFIED="1718004661211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
     <SUITE FILE_PATH="coverage/100knock2024$knock50.coverage" NAME="knock50 Coverage Results" MODIFIED="1718004439748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter06" />
     <SUITE FILE_PATH="coverage/100knock2024$knock20.coverage" NAME="knock20 Coverage Results" MODIFIED="1716117437978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/siqingwang/chapter03" />

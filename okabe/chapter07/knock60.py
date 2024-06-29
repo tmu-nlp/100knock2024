@@ -7,8 +7,10 @@ Google Newsデータセット（約1,000億単語）での学習済み単語ベ�
 from gensim.models import KeyedVectors
 
 #gensimは文書をベクトル化できるPythonのライブラリ
+#gensim.KeyedVectorsは事前訓練済みのWord2Vecモデルやその他の埋め込みモデルをロードして操作出来る
 #.wv.save_word2vec_format()で保存された分散表現は，KeyedVectors.load_word2vec_format(ファイルパス)で読み込める
-#バイナリファイルを読み込む
+#binary=Trueでバイナリファイルを読み込む
+
 model = KeyedVectors.load_word2vec_format("GoogleNews-vectors-negative300.bin.gz", binary=True)
 print(model["United_States"])
 
