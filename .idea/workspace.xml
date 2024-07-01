@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a37939-89a4-45f3-bf65-4d19bd2eef0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock60.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock61.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock62.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock63.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock65.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock66.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock67.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock68.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter07/knock69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock72.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock73.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock74.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock75.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock76.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/knock78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/konck77.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter08/konck79.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,32 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.knock16.executor": "ConcurrencyExecutor",
-    "Python.knock20.executor": "Run",
-    "Python.knock25.executor": "Run",
-    "Python.knock40.executor": "Run",
-    "Python.knock41.executor": "Run",
-    "Python.knock50.executor": "Run",
-    "Python.knock51.executor": "Run",
-    "Python.knock52.executor": "Run",
-    "Python.knock55.executor": "Run",
-    "Python.knock58.executor": "Run",
-    "Python.knock59.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.knock16.executor&quot;: &quot;ConcurrencyExecutor&quot;,
+    &quot;Python.knock20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock40.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock41.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock50.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock51.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock52.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock55.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock58.executor&quot;: &quot;Run&quot;,
+    &quot;Python.knock59.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/siqingwang/chapter06" />
@@ -99,6 +99,7 @@
       <workItem from="1718004284294" duration="1251000" />
       <workItem from="1718168382863" duration="3470000" />
       <workItem from="1718173547516" duration="167000" />
+      <workItem from="1719810830502" duration="353000" />
     </task>
     <servers />
   </component>
