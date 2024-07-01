@@ -1,7 +1,5 @@
 #65. アナロジータスクでの正解率
-# 64の実行結果を用い，
-# 意味的アナロジー（semantic analogy）と
-# 文法的アナロジー（syntactic analogy）の正解率を測定せよ．
+#64の実行結果を用い，意味的アナロジー（semantic analogy）と文法的アナロジー（syntactic analogy）の正解率を測定せよ．
 
 """
 意味的アナロジー:単語の意味に基づいた類推問題
@@ -18,12 +16,12 @@
 
 #自然言語処理用のgensimパッケージ
 from gensim.models import KeyedVectors
-file = '/GoogleNews-vectors-negative300.bin'
+file = './GoogleNews-vectors-negative300.bin.gz'
 
 #fileをword2vec形式で読み込み
 model = KeyedVectors.load_word2vec_format(file,binary = True)
 
-output = '/questions-words.txt'
+output = './questions-words.txt'
 
 #カウントと正解数の初期化
 sem_cnt = 0  # 意味的アナロジーのカウント数
@@ -58,8 +56,8 @@ with open(output, 'r', encoding='utf-8') as f:
                 syn_true += 1
 
 # 正解率の計算と表示
-print('意味的アナロジーの正解率: {}'.format(sem_true / sem_cnt))
-print('文法的アナロジーの正解率: {}'.format(syn_true / syn_cnt))
+print('意味的アナロジーの正解率: {}'.format(sem_true/sem_cnt))
+print('文法的アナロジーの正解率: {}'.format(syn_true/syn_cnt))
 
 """
 出力結果

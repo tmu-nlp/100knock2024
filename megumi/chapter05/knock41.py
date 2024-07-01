@@ -59,3 +59,4 @@ with open("./ai.ja.txt.parsed") as f:
 for chunk in sentences[2].chunks:
   chunk_str = "".join([morph.surface for morph in chunk.morphs])
   print(f"文節の文字列：{chunk_str}\n係り先の文節番号：{chunk.dst}\n")
+
