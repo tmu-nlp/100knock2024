@@ -1,3 +1,5 @@
+# 42. Show root words
+
 import json
 import requests
 import spacy
@@ -60,9 +62,9 @@ article_text = load_wikipedia_article(title)
 # Parse the text
 sentences = parse_text(article_text)
 
-# Show the pairs of governors (parents) and their dependents (children) for the first sentence
-print("Governors and their dependents in the first sentence:")
-for word in sentences[0]:
-    if word.children:
-        for child in word.children:
-            print(f"Governor: {word.text}, Dependent: {child.text}")
+# Extract and show the root word for each sentence
+print("Root words for each sentence:")
+for i, sentence in enumerate(sentences):
+    root_word = next((word for word in sentence if word.dep == "ROOT"), None)
+    if root_word:
+        print(f"Sentence {i + 1}: Root word = {root_word.text}")

@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a37939-89a4-45f3-bf65-4d19bd2eef0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock36.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock37.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock38.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/knock39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/neko.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siqingwang/chapter04/neko.txt.mecab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock45.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siqingwang/chapter09/knock90.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siqingwang/chapter05/knock40.py" beforeDir="false" afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock40.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siqingwang/chapter05/knock41.py" beforeDir="false" afterPath="$PROJECT_DIR$/siqingwang/chapter05/knock41.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1718168382863" duration="3470000" />
       <workItem from="1718173547516" duration="167000" />
       <workItem from="1719810830502" duration="353000" />
-      <workItem from="1720327611299" duration="1173000" />
+      <workItem from="1720327611299" duration="3871000" />
     </task>
     <servers />
   </component>
