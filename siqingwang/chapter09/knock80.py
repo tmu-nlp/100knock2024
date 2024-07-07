@@ -1,4 +1,6 @@
 import pandas as pd
+from sklearn.model_selection import train_test_split
+
 
 data = pd.read_csv('newsCorpora.csv', sep = '\t', header = None, names = ['ID', 'TITLE', 'URL', 'PUBLISHER', 'CATEGORY', 'STORY', 'HOSTNAME', 'TIMESTAMP'])
 
@@ -6,6 +8,10 @@ publishers = ['Reuters', 'Huffington Post', 'Businessweek', '“Contactmusic.com
 
 data = data[data['PUBLISHER'].isin(publishers)]
 data = data[['TITLE', 'CATEGORY']]
+
+train, valid_test = train_test_split(data, test_size = 0.2, random_state = 0, shuffle = True, stratify = data['CATEGORY'])
+valid, test = train_test_split(valid_test, test_size=0.5, random_state=0, shuffle = True, stratify=valid_test['CATEGORY'])
+
 
 from collections import Counter
 import pandas as pd
@@ -45,7 +51,7 @@ class WordToIDMapper:
 mapper = WordToIDMapper()
 
 # Fit the mapper to your DataFrame
-mapper.fit_from_dataframe(data, 'TITLE')
+mapper.fit_from_dataframe(train, 'TITLE')
 
 
 # Function to get ID for a word
