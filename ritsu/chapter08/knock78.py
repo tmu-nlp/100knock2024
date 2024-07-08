@@ -112,3 +112,40 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Using device: cpu
+
+Training with batch size: 1
+Epoch 1/1, Train Loss: 0.4442, Valid Loss: 0.3603, Valid Acc: 0.8636, Time: 3.62s
+
+Training with batch size: 2
+Epoch 1/1, Train Loss: 0.5683, Valid Loss: 0.4485, Valid Acc: 0.8411, Time: 2.05s
+
+Training with batch size: 4
+Epoch 1/1, Train Loss: 0.6828, Valid Loss: 0.5065, Valid Acc: 0.8291, Time: 1.13s
+
+Training with batch size: 8
+Epoch 1/1, Train Loss: 0.8284, Valid Loss: 0.6612, Valid Acc: 0.7579, Time: 0.65s
+
+Training with batch size: 16
+Epoch 1/1, Train Loss: 0.9551, Valid Loss: 0.7578, Valid Acc: 0.7399, Time: 0.44s
+
+Training with batch size: 32
+Epoch 1/1, Train Loss: 1.1568, Valid Loss: 0.9738, Valid Acc: 0.6792, Time: 0.27s
+
+Training with batch size: 64
+Epoch 1/1, Train Loss: 1.2650, Valid Loss: 1.0410, Valid Acc: 0.6064, Time: 0.20s
+
+Training with batch size: 128
+Epoch 1/1, Train Loss: 1.6297, Valid Loss: 1.3020, Valid Acc: 0.4370, Time: 0.19s
+
+Training with batch size: 256
+Epoch 1/1, Train Loss: 1.9138, Valid Loss: 1.6683, Valid Acc: 0.2879, Time: 0.16s
+
+Training with batch size: 512
+Epoch 1/1, Train Loss: 2.1196, Valid Loss: 1.9023, Valid Acc: 0.2901, Time: 0.16s
+
+Training with batch size: 1024
+Epoch 1/1, Train Loss: 2.2980, Valid Loss: 2.1704, Valid Acc: 0.1619, Time: 0.14s
+"""

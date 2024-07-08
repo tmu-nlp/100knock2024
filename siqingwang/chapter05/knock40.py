@@ -1,25 +1,50 @@
-class Morph:
-    def __init__(self, words):
-        surface, words1 = words.split('\t')
-        words1 = words1.split(',')
-        self.surface = surface
-        self.base = words1[6]
-        self.pos = words1[0]
-        self.pos1 = words1[1]
+import json
+import requests
+import spacy
 
+# Define the Word class
+class Word:
+    def __init__(self, text, lemma, pos):
+        self.text = text
+        self.lemma = lemma
+        self.pos = pos
 
-sentences = []
-morphs = []
+    def __repr__(self):
+        return f"Word(text={self.text}, lemma={self.lemma}, pos={self.pos})"
 
-with open('ai.ja.txt.parsed', encoding='UTF-8') as f:
-    for line in f:
-        if line[0] == '*':
-            continue
-        elif line != 'EOS\n':
-            morphs.append(Morph(line))
-        else:  # EOS\n
-            sentences.append(morphs)
-            morphs = []
+# Function to load Wikipedia article
+def load_wikipedia_article(title):
+    api_url = "https://en.wikipedia.org/w/api.php"
+    params = {
+        "action": "query",
+        "prop": "extracts",
+        "explaintext": True,
+        "titles": title,
+        "format": "json"
+    }
+    response = requests.get(api_url, params=params)
+    data = response.json()
+    page = next(iter(data['query']['pages'].values()))
+    return page['extract']
 
-for i in sentences[2]:  # 第一句
-    print(vars(i))  # vars(): オブジェクトの属性とそれに対応する値を取得する
+# Function to parse text and create an array of sentences with Word instances
+def parse_text(text):
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp(text)
+    sentences = []
+    for sent in doc.sents:
+        words = [Word(token.text, token.lemma_, token.pos_) for token in sent]
+        sentences.append(words)
+    return sentences
+
+# Load the Wikipedia article for "Artificial Intelligence"
+title = "Artificial intelligence"
+article_text = load_wikipedia_article(title)
+
+# Parse the text
+sentences = parse_text(article_text)
+
+# Show the object of the first sentence of the body of the article
+print("First sentence words:")
+for word in sentences[0]:
+    print(word)
