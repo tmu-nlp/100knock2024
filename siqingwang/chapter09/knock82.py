@@ -24,13 +24,34 @@ def text_to_sequences(df, text_column, label_column, mapper):
 
     return sequences, np.array(labels)
 
+class WordToIDMapper:
+    def __init__(self):
+        self.word_to_id = {}
+        self.id_counter = 1  # Start IDs from 1 (0 will be reserved for words occurring less than twice)
 
-# Example DataFrame (replace with your actual DataFrame)
-train_data = {
-    'CATEGORY': [0, 1, 0, 2],  # Example categories (replace with your actual data)
-    'TITLE': ['this is a title', 'another title example', 'yet another example', 'fourth example']
-}
-train = pd.DataFrame(train_data)
+    def fit_from_dataframe(self, df, column_name):
+        # Extract words from the specified column in the DataFrame
+        # 特定されるcolumn(TITLE)から単語をsplit
+        data = df[column_name].str.split().sum()  # Split titles into words and flatten into a list
+
+        # Count word frequencies
+        # 頻度を計算
+        word_counts = Counter(data)
+
+        # Sort words by frequency
+        # 頻度から順番を付け
+        # based on the second element of each tuple
+        sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
+
+        # Assign IDs to words that occur two or more times
+        for word, count in sorted_words:
+            if count >= 2:
+                self.word_to_id[word] = self.id_counter
+                self.id_counter += 1
+
+    def get_id(self, word):
+        # Return the ID of a word if it exists, otherwise return 0
+        return self.word_to_id.get(word, 0)
 
 # Initialize the mapper
 mapper = WordToIDMapper()
