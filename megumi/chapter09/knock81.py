@@ -31,10 +31,10 @@ class RNN(nn.Module):
         return torch.softmax(out, dim=1)
 
 # ハイパーパラメータ
-vocab_size = 10000
-embed_size = 300
-hidden_size = 50
-output_size = 4
+vocab_size = 10000  # 語彙数
+embed_size = 300    # 埋め込みベクトルの次元
+hidden_size = 50    # RNNの隠れ状態の次元
+output_size = 4     # 出力カテゴリ数
 
 # モデルのインスタンス化
 rnn = RNN(vocab_size, embed_size, hidden_size, output_size)
