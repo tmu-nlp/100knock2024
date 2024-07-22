@@ -62,6 +62,53 @@ class BertClassifier(nn.Module):
         output = self.drop(pooled_output)
         return self.out(output)
 
+# 訓練関数
+def train_epoch(model, data_loader, loss_fn, optimizer, device, scheduler, n_examples):
+    model = model.train()
+    losses = []
+    correct_predictions = 0
+    
+    for batch in tqdm(data_loader):
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        labels = batch['labels'].to(device)
+        
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+        _, preds = torch.max(outputs, dim=1)
+        loss = loss_fn(outputs, labels)
+        
+        correct_predictions += torch.sum(preds == labels)
+        losses.append(loss.item())
+        
+        loss.backward()
+        nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        optimizer.step()
+        scheduler.step()
+        optimizer.zero_grad()
+    
+    return correct_predictions.double() / n_examples, np.mean(losses)
+
+# 評価関数
+def eval_model(model, data_loader, loss_fn, device, n_examples):
+    model = model.eval()
+    losses = []
+    correct_predictions = 0
+    
+    with torch.no_grad():
+        for batch in data_loader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            labels = batch['labels'].to(device)
+            
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+            _, preds = torch.max(outputs, dim=1)
+            loss = loss_fn(outputs, labels)
+            
+            correct_predictions += torch.sum(preds == labels)
+            losses.append(loss.item())
+    
+    return correct_predictions.double() / n_examples, np.mean(losses)
+
 # データの読み込みと前処理
 def load_data(file_path):
     df = pd.read_csv(file_path, sep='\t', names=['CATEGORY', 'TITLE'])
@@ -224,53 +271,6 @@ def main():
     plt.close()
 
     print("Loss and accuracy plots have been saved as 'knock89_image_loss_accuracy.png'")
-
-# 訓練関数
-def train_epoch(model, data_loader, loss_fn, optimizer, device, scheduler, n_examples):
-    model = model.train()
-    losses = []
-    correct_predictions = 0
-    
-    for batch in tqdm(data_loader):
-        input_ids = batch['input_ids'].to(device)
-        attention_mask = batch['attention_mask'].to(device)
-        labels = batch['labels'].to(device)
-        
-        outputs = model(input_ids=input_ids, attention_mask=attention_mask)
-        _, preds = torch.max(outputs, dim=1)
-        loss = loss_fn(outputs, labels)
-        
-        correct_predictions += torch.sum(preds == labels)
-        losses.append(loss.item())
-        
-        loss.backward()
-        nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-        optimizer.step()
-        scheduler.step()
-        optimizer.zero_grad()
-    
-    return correct_predictions.double() / n_examples, np.mean(losses)
-
-# 評価関数
-def eval_model(model, data_loader, loss_fn, device, n_examples):
-    model = model.eval()
-    losses = []
-    correct_predictions = 0
-    
-    with torch.no_grad():
-        for batch in data_loader:
-            input_ids = batch['input_ids'].to(device)
-            attention_mask = batch['attention_mask'].to(device)
-            labels = batch['labels'].to(device)
-            
-            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
-            _, preds = torch.max(outputs, dim=1)
-            loss = loss_fn(outputs, labels)
-            
-            correct_predictions += torch.sum(preds == labels)
-            losses.append(loss.item())
-    
-    return correct_predictions.double() / n_examples, np.mean(losses)
 
 if __name__ == '__main__':
     main()
