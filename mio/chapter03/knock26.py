@@ -20,12 +20,13 @@ import re
 
 filename = "jawiki-country.json"
 
+#lines：JSONオブジェクトが1行ずつ書かれているとしてファイルを読み込む。デフォルトはFalse。
 j_data = pd.read_json(filename, lines =True)
 df = j_data
 uk_df = df[df["title"]=="イギリス"]
 
 dic = {}
-for text in uk_df[0].split("\n"):
+for text in uk_df["text"].values.split("\n"):
     if re.search("\|(.+?)\s=\s*(.+)", text):
         match_txt = re.search("\|(.+?)\s=\s*(.+)", text)
         dic[match_txt[1]] = match_txt[2]      
