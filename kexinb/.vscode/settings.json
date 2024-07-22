@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./testenv/lib/python3.10/site-packages/scipy/_lib/array_api_compat/array_api_compat"
+    ]
+}
