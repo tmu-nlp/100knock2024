@@ -8,9 +8,13 @@ from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import matplotlib.pyplot as plt
 >>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+import matplotlib.pyplot as plt
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 
 # デバイスの設定
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -65,6 +69,7 @@ class BertClassifier(nn.Module):
         output = self.drop(pooled_output)
         return self.out(output)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # データの読み込みと前処理
 def load_data(file_path):
@@ -142,6 +147,8 @@ loss_fn = nn.CrossEntropyLoss().to(device)
 
 =======
 >>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 # 訓練関数
 def train_epoch(model, data_loader, loss_fn, optimizer, device, scheduler, n_examples):
     model = model.train()
@@ -190,6 +197,7 @@ def eval_model(model, data_loader, loss_fn, device, n_examples):
     return correct_predictions.double() / n_examples, np.mean(losses)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 訓練ループ
 best_accuracy = 0
 
@@ -236,6 +244,8 @@ test_acc, _ = eval_model(
 
 print(f'Test accuracy: {test_acc.item()}')
 =======
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 # データの読み込みと前処理
 def load_data(file_path):
     df = pd.read_csv(file_path, sep='\t', names=['CATEGORY', 'TITLE'])
@@ -401,7 +411,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+<<<<<<< HEAD
 >>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 
 """
 (以下はcolabでの実行結果)
@@ -467,8 +480,11 @@ Train loss 0.029474284924049073 accuracy 0.9939092953523238
 Val loss 0.45648470134949004 accuracy 0.9355322338830584
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Figure(1200x400)
 =======
 >>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 Test accuracy: 0.93928035982009
 """
