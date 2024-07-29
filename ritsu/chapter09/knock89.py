@@ -7,7 +7,14 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import os
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 import matplotlib.pyplot as plt
+>>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+import matplotlib.pyplot as plt
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 
 # デバイスの設定
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -62,6 +69,86 @@ class BertClassifier(nn.Module):
         output = self.drop(pooled_output)
         return self.out(output)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+# データの読み込みと前処理
+def load_data(file_path):
+    df = pd.read_csv(file_path, sep='\t', names=['CATEGORY', 'TITLE'])
+    return df
+
+base_path = os.path.join('..', 'chapter06')
+train_data = load_data(os.path.join(base_path, 'train.txt'))
+valid_data = load_data(os.path.join(base_path, 'valid.txt'))
+test_data = load_data(os.path.join(base_path, 'test.txt'))
+
+# カテゴリをインデックスに変換
+category_to_index = {'b': 0, 't': 1, 'e': 2, 'm': 3}
+train_data['CATEGORY'] = train_data['CATEGORY'].map(category_to_index)
+valid_data['CATEGORY'] = valid_data['CATEGORY'].map(category_to_index)
+test_data['CATEGORY'] = test_data['CATEGORY'].map(category_to_index)
+
+# BERTトークナイザーの初期化
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+
+# データセットの作成
+MAX_LEN = 128
+BATCH_SIZE = 16
+
+train_dataset = NewsDataset(
+    texts=train_data.TITLE.to_numpy(),
+    labels=train_data.CATEGORY.to_numpy(),
+    tokenizer=tokenizer,
+    max_len=MAX_LEN
+)
+
+valid_dataset = NewsDataset(
+    texts=valid_data.TITLE.to_numpy(),
+    labels=valid_data.CATEGORY.to_numpy(),
+    tokenizer=tokenizer,
+    max_len=MAX_LEN
+)
+
+test_dataset = NewsDataset(
+    texts=test_data.TITLE.to_numpy(),
+    labels=test_data.CATEGORY.to_numpy(),
+    tokenizer=tokenizer,
+    max_len=MAX_LEN
+)
+
+train_data_loader = DataLoader(
+    train_dataset,
+    batch_size=BATCH_SIZE,
+    shuffle=True,
+    num_workers=2
+)
+
+valid_data_loader = DataLoader(
+    valid_dataset,
+    batch_size=BATCH_SIZE,
+    num_workers=2
+)
+
+test_data_loader = DataLoader(
+    test_dataset,
+    batch_size=BATCH_SIZE,
+    num_workers=2
+)
+
+# モデルの初期化
+model = BertClassifier(n_classes=4)
+model = model.to(device)
+
+# 損失関数とオプティマイザの定義
+EPOCHS = 10
+optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
+total_steps = len(train_data_loader) * EPOCHS
+scheduler = torch.optim.lr_scheduler.LinearLR(optimizer, total_iters=total_steps)
+loss_fn = nn.CrossEntropyLoss().to(device)
+
+=======
+>>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 # 訓練関数
 def train_epoch(model, data_loader, loss_fn, optimizer, device, scheduler, n_examples):
     model = model.train()
@@ -109,6 +196,56 @@ def eval_model(model, data_loader, loss_fn, device, n_examples):
     
     return correct_predictions.double() / n_examples, np.mean(losses)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+# 訓練ループ
+best_accuracy = 0
+
+for epoch in range(EPOCHS):
+    print(f'Epoch {epoch + 1}/{EPOCHS}')
+    print('-' * 10)
+    
+    train_acc, train_loss = train_epoch(
+        model,
+        train_data_loader,
+        loss_fn,
+        optimizer,
+        device,
+        scheduler,
+        len(train_data)
+    )
+    
+    print(f'Train loss {train_loss} accuracy {train_acc}')
+    
+    val_acc, val_loss = eval_model(
+        model,
+        valid_data_loader,
+        loss_fn,
+        device,
+        len(valid_data)
+    )
+    
+    print(f'Val loss {val_loss} accuracy {val_acc}')
+    print()
+    
+    if val_acc > best_accuracy:
+        torch.save(model.state_dict(), 'best_model_state.bin')
+        best_accuracy = val_acc
+
+# テストデータでの評価
+model.load_state_dict(torch.load('best_model_state.bin'))
+test_acc, _ = eval_model(
+    model,
+    test_data_loader,
+    loss_fn,
+    device,
+    len(test_data)
+)
+
+print(f'Test accuracy: {test_acc.item()}')
+=======
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 # データの読み込みと前処理
 def load_data(file_path):
     df = pd.read_csv(file_path, sep='\t', names=['CATEGORY', 'TITLE'])
@@ -274,6 +411,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+<<<<<<< HEAD
+>>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 
 """
 (以下はcolabでの実行結果)
@@ -338,5 +479,12 @@ Epoch 10/10
 Train loss 0.029474284924049073 accuracy 0.9939092953523238
 Val loss 0.45648470134949004 accuracy 0.9355322338830584
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+Figure(1200x400)
+=======
+>>>>>>> 42dbd97f744e68a9651be100bfd37f30a9607416
+=======
+>>>>>>> eba84b5f99df32efcb379942275cdda8e709fc87
 Test accuracy: 0.93928035982009
 """
