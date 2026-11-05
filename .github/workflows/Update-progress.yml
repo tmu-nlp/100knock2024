@@ -13,6 +13,9 @@ on:
         required: true
         default: "test"
 
+permissions:
+  contents: write # push progress.png only
+
 jobs:
   update:
     name: Update
